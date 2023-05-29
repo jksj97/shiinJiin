@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google calendar</title>
+    <link rel="stylesheet" href="./css/font/font.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <header class="menu whitemode">
+        <div class="head-inner">
+            <a href="#" class="whiteBtn" onclick="location.href='home.html'">home</a>
+            <ul id="mainMenu">
+                <li class="main-project"><a href="#" class="mainbtns" onclick="location.href='google.html'">Google calendar</a></li>
+                <li class="main-project"><a href="#" class="mainbtns" onclick="location.href='ringtok.html'">RingTok</a></li>
+                <li class="main-project"><a href="#" class="mainbtns" onclick="location.href='ahJeom.html'">ㅏ(ah)-Jeom</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="sub-menu">
+        <ul>
+          <li><a href="#section1">불편사항 접수</a></li>
+          <li><a href="#section2">문제 분석</a></li>
+          <li><a href="#section3">시각적 결론 도출</a></li>
+          <li><a href="#section4">업데이트 사항분석</a></li>
+          <li><a href="#section5">업데이트 내역확인</a></li>
+          <li><a href="#section6">새로운 구글 캘린더</a></li>
+        </ul>
+    </div>
+
+    <button id="scrollToTopButton"><img width="90%" height="90%" src="./img/toTop-icon.svg" alt=""></button>
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+        <span class="close">확인</span>
+        </div>
+    </div>
+
+    <div class="body">
+        <section class="top-bar padding">
+            <div class="top-bar-area">
+                <div class="hey-google">
+                    <p>Hey, 구글!</p>
+                    <p><strong>구글 캘린더 업데이트 좀 해줘!</strong></p>
+                </div>
+                <article class="google-assistant"><img width="248" height="283.24" src="./img/hey-google-assistant.svg" alt="google assistant img"></article>
+                <div class="google-speechBubble">
+                    <p>네, 업데이트하고 싶은 부분을 말씀해주세요.</p>
+                    <img src="./img/speech-bubble-DDDDDD.svg" alt="구글 말풍선 #DDDDDD">
+                </div>
+            </div>
+        </section> <!--top-bar sect END-->
+
+        <section id="section1" class="section problems">
+            <div class="inner">
+                <p>지금 나는 이 부분이 불편해!</p>
+                <ol class="bubble-groups">
+                    <li class="problems-bubble bubble">
+                        <p>폰트 사이즈가 너무 작아. 폰트 크기 좀 크게해줘. 16px정도면 좋겠어.<span style="font-size:16px; color:#70757A; margin-left:5px;">(<span>14px</span> > 16px)</span></p>
+                    </li>
+                    <li class="problems-bubble bubble">
+                        <p><p style="padding: 0 5px" class="blue">지난 스케줄 목록은</p> 어디가야 볼 수 있는거야? 메뉴로 나타내줘.</p>
+                    </li>
+                    <li class="problems-bubble bubble">
+                        <p>아이콘 사이즈 등 버튼 크기가 작아서 알아 보기가 힘들어.</p>
+                    </li>
+                    <li class="problems-bubble bubble">
+                        <p>주밀이랑 평일, 공휴일 한 눈에 보였으면 좋겠어.</p>
+                    </li>
+                    <li class="problems-bubble bubble">
+                        <p>음.. 우선 이정도면 된 것 같아. 업데이트 부탁할게!</p>
+                    </li>
+                </ol>
+                <div class="pro-asisstant-answer">
+                    <img src="./img/hey-google-icon.svg" alt="구글 어시스턴트 아이콘(글자 없이)">
+                    <div class="asisstant-speech bubble">
+                        <p>Ok. 추가 해결점을 모색해서 더 나은 서비스를 시작할게요.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="section show-problems">
+            <div class="inner">
+                <div class="top-showPro">
+                    <h1>캘린더의 문제점을 분석할게요.</h1>
+
+                    <div class="show-nowCalendar">
+                        <p>현재 구글 캘린더</p>
+                        <img src="./img/now-calendar.png" alt="현재 구글 캘린더 레이아웃 이미지">
+                    </div>
+                </div>
+                <ol class="show-proCalendar-answerAsisstant">
+                    <li class="nowpro01 show-proBubbles bubble">
+                        <img width="120" height="120" src="./img/hey-google-icon.svg" alt="구글 어시스턴트 아이콘(글자없이)">
+                        <p>타 웹사이트들과 비교하여 문제를 분석을 완료했어요.</p>
+                    </li>
+                    <li class="nowpro02 show-proBubbles bubble">
+                        <p>현재 다른 웹사이트보다 <p style="padding-left:5px" class="blue">최소 폰트 1px 이하 본문 사이즈 2px 이하로 작아요.</p></p>
+                    </li>
+                    <li class="nowpro03 show-proBubbles">
+                        <ol class="brand-font">
+                            <li class="other-siteFont"> <!--다른 브랜드 폰트 분석-->
+                                <div class="otherBrand-inner">
+                                    <div class="brand-logo">
+                                        <img src="./img/naver.png" alt="naver">
+                                        <p class="branName">Naver</p>
+                                    </div>
+                                    <div class="other-font-size">
+                                        <p>min font 12px</p>
+                                        <p>normal font 14px</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="other-siteFont">
+                                <div class="otherBrand-inner">
+                                    <div class="brand-logo">
+                                        <img src="./img/Behance.png" alt="behance">
+                                        <p class="branName">Behance</p>
+                                    </div>
+                                    <div class="other-font-size">
+                                        <p>min font 12px</p>
+                                        <p>normal font 13~14px</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="other-siteFont">
+                                <div class="otherBrand-inner">
+                                    <div class="brand-logo">
+                                        <img src="./img/YouTube.png" alt="youtube">
+                                        <p class="branName">YouTube</p>
+                                    </div>
+                                    <div class="other-font-size">
+                                        <p>min font 12px</p>
+                                        <p>normal font 14px</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="other-siteFont">
+                                <div class="otherBrand-inner">
+                                    <div class="brand-logo">
+                                        <img src="./img/GitHub.png" alt="github">
+                                        <p class="branName">GitHub</p>
+                                    </div>
+                                    <div class="other-font-size">
+                                        <p>min font 12px</p>
+                                        <p>normal font 14px</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>  <!--브랜드 끝-->
+                    </li>
+                    <li class="nowpro04 show-proBubbles bubble">
+                        <p>컨텐츠 영역과 마진을 고려하여 최소 폰트 12px 본문 사이즈 16px로 변환, Button 사이즈 30*30px로 업데이트를 진행할게요.</p>
+                    </li>
+                </ol>
+                <div class="btnSize-otherBrand">
+                    <p><strong>btn topBar btn height</strong></p>
+                    <span>
+                        Naver 26px<br>
+                        Behance 55px<br>
+                        YouTube 40px<br>
+                        GitHub 28px
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="section3" class="section calendar-layout">
+            <div class="inner">
+                <div class="layout-topTitle">
+                    <h1>캘린더의 레이아웃을 변경합니다.</h1>
+                    <p>텍스트를 키운 대신 아이템 박스의 height와 마진값을 높여 사용자의 내용 인식을 높입니다.</p>
+                </div>
+                <div class="develop-layoutImg">
+                    <div class="devel-imgGruop">
+                        <img src="" alt="디벨롭되기 전 캘린더">
+                        <img src="" alt="디벨롭되고 후 캘린더">
+                    </div>
+                    <span>
+                        사이드 메뉴의 클릭 영역을 40*40px 이지만 디자인 내부의 백그라운드 크기를 제외한 <br>
+                        크기는 20px 이하로 인식되기 때문에 터치 영역을 제외한 디자인의 크기를 10px 더 크기를 키웠습니다.
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="section4" class="section service-analysis">
+            <div class="inner">
+                <div class="layout-topTitle">
+                    <h1>서비스 문제점을 분석할게요.</h1>
+                    <p>평일/쉬는 날 구분, 카테고리 플로우, 서비스 분리 등 문제 분석을 시작합니다.</p>
+                </div>
+                <div class="flow-analysisInner">
+                    <div class="what-user-calendarPurpos"><!--01 사용자의 캘린더 이용 목적-->
+                        <div class="title-search-user">
+                            <p>사용자가 캘린더를 이용하는 목적은 무엇일까요?</p>
+                            <img src="./img/serch-icon.svg" alt="서치 아이콘">
+                        </div>
+                        <ol class="search-pos-group">
+                            <li class="pos blue">내 스케줄을 정리하기 위해서</li>
+                            <li class="pos blue">스케줄를 공유해서 팀원들과 일정 조정을 하기 위해서</li>
+                            <li class="pos">앞으로의 일정을 미리 정하기 위해서</li>
+                            <li class="pos">오늘 일정을 계획하기 위해서</li>
+                            <li class="pos blue">오늘 일정을 계획하기 위해서</li>
+                            <li class="pos">지난 일정에 무엇을 했는지 확인하기 위해서</li>
+                        </ol>
+                    </div><!--END 01 사용자의 캘린더 이용 목적-->
+
+                    <div class="what-calendar-serviceNow"><!--02 현재 구글 캘린더가 제공하는 서비스 나열-->
+                        <p>현재 구글 캘린더의 서비스는 무엇이 있나요?</p>
+                        <ol class="lendar-service-group">
+                            <li class="service-item">
+                                <img src="./img/service01.png" alt="일정 추적 및 메모 이미지">
+                                <div class="name-service">
+                                    <p><strong>일정추적 및 메모</strong></p>
+                                    <ol class="eache-service eache01">
+                                        <li class="eache-item"><span>약속 시간대 작성</span></li>
+                                        <li class="eache-item"><span>휴가, 비공개 <br> 시간예약</span></li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <img src="./img/service02.png" alt="메일함 즉시 일정 작성 이미지">
+                                <div class="name-service">
+                                    <p><strong>메일함 일정 작성</strong></p>
+                                    <ol class="eache-service eache02">
+                                        <li class="eache-item"><span>Gmail에 일일 <br> 일정목록 다운로드</span></li>
+                                        <li class="eache-item"><span>Gmail 받은편지함에 <br> 캘린더 응답 필터링</span></li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <img src="./img/service03.png" alt="팀원과의 공동작업 이미지">
+                                <div class="name-service">
+                                    <p><strong>팀원과의 공동작업</strong></p>
+                                    <ol class="eache-service eache03">
+                                        <li class="eache-item"><span>일정응답 관리</span></li>
+                                        <li class="eache-item"><span>내 일정에 다른 사용자 관리/수정 허용</span></li>
+                                        <li class="eache-item"><span>일정에 그룹 초대</span></li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <img src="./img/service04.png" alt="캘린더의 일정공유 이미지">
+                                <div class="name-service">
+                                    <p><strong>캘린더의 일정공유</strong></p>
+                                    <ol class="eache-service eache04">
+                                        <li class="eache-item"><span>팀 캘린더 제작, 공유</span></li>
+                                        <li class="eache-item"><span>동료 캘린더 확인</span></li>
+                                        <li class="eache-item"><span>회의시간 서치</span></li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <img src="./img/service05.png" alt="제약없는 회의 개최 이미지">
+                                <div class="name-service">
+                                    <p><strong>제약없는 회의 개최</strong></p>
+                                    <ol class="eache-service eache05">
+                                        <li class="eache-item"><span>회의 일정 예약, 개최</span></li>
+                                        <li class="eache-item"><span>자료 공유</span></li>
+                                    </ol>
+                                </div>
+                            </li>
+                        </ol>
+                    </div><!--END 02 현재 구글 캘린더가 제공하는 서비스 나열-->
+
+                    <div class="what-google-noService"><!--03 필요 서비스 분석 나열-->
+                        <div class="title-group-noService">
+                            <p class="sub">현재 구글 캘린더에서 없는 서비스는 무엇이 있나요?</p>
+                            <h2 class="main blue">스케줄 전체 확인 목록표</h2>
+                        </div>
+                        <div class="speachGroup-chcek-service">
+                            <div class="checek-tail-inner">
+                                <span>일,주,월,년별 확인/키워드 서치로 스케줄 전체를 확인할 수 있어요.</span>
+                                <div class="calendar-checkLayout">
+                                    <p>일,주,월,년별로 전체 스케줄 확인</p>
+                                    <img src="./img/calendar-checkLayout-img.png" alt="현재 스케쥴 캘린더 레이아웃 이미지">
+                                </div>
+
+                                <div class="calendar-serch-chcek">
+                                    <p>키워드 검색 스케줄 확인</p>
+                                    <img src="./img/calendar-serch-chcek-img.png" alt="키워드 검색 스케쥴 확인 이미지">
+                                </div>
+
+                                <div class="needs-text-group">
+                                    <div class="main-needs">
+                                        <span>일,월 등 확인/검색 스케줄 확인 = 디테일 정보 확인 불가, 한정된 확인 </span>
+                                        <h2 class="main blue">전체 일정의 디테일을 간략하게 확인할 수 있어야합니다.</h2>
+                                    </div>
+                                    <ol class="analysis-needs">
+                                        <li class="needs-item">
+                                            <p class="top-analys blue">스케쥴의 별도 캘린더 만들기 기능 제공</p>
+                                            <span class="bot-aalys">현재 구글 캘린더의 ‘내 캘린더’ 기능은 표시 카테고리 추가 기능입니다. <br> 별도의 다른 캘린더를 만드는 기능이 아니므로 내가 원하는 새로운 캘린더의 목록 구성은 불가능합니다.</span>
+                                        </li>
+                                        <li class="needs-item">
+                                            <p class="top-analys">내 일정 목록 전체 보기</p>
+                                            <span class="bot-aalys">키워드 검색과 날자 주기의 간단한 목록 확인이 가능하지만 전체 일정의 디테일은 확인할 수 없습니다.
+                                                <br>추가로 장기와 단기 일정, 스케쥴의 진행완료/진행도를 표시해 캘린더의 사용성을 높여야 합니다. </span>
+                                        </li>
+                                        <li class="needs-item">
+                                            <p class="top-analys">평일/주말 구분</p>
+                                            <span class="bot-aalys">모든 날자가 단색으로 처리되어 있습니다.(공휴일은 체크박스로 표시) 구분 색이 필요합니다.</span>
+                                        </li>
+                                        <li class="needs-item">
+                                            <p class="top-analys blue">스케쥴 서비스의 세분화</p>
+                                            <span class="bot-aalys">구글 캘린더의 서비스 사용할 때의 플로우는 심플합니다. 
+                                                <br> 하지만 그로 인해 서비스의 정확한 서치와 이용, 이해가 떨어집니다. 정확한 구분이 필요합니다.
+                                            </span>
+                                        </li>
+                                        <li class="needs-item">
+                                            <p class="top-analys blue">알림 기능 시각화</p>
+                                            <span class="bot-aalys">정확한 일정 기능 수행을 위해 알람 카테고리를 ‘사용안함/소리알림/<span class="blue">팝업알림(추가)</span>’으로 구성합니다.</span>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--END 03 필요 서비스 분석 나열-->
+
+                    <div class="end-analysis">
+                        <img src="./img/hey-google-icon.svg" alt="구글 어시스턴트 이미지">
+                        <p>
+                            업데이트 내역의 분석이 끝났습니다. <br>진행 목록 확인 후 업데이트를 진행합니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5" class="section check-update">
+            <div class="inner">
+                <h1>업데이트 내역을 확인해 주십시오.</h1>
+
+                <ol class="update-group">
+                    <li class="up-item">
+                        <p>사이즈 변경으로 사용성 확대</p>
+                        <ol class="in-updata-group">
+                            <li class="inData-item"><span>폰트 사이즈 변경: 최소 사이즈 12px/평균 사이즈 14px</span></li>
+                            <li class="inData-item"><span>캘린더 날자 버튼 영역 확대: 30*24px > 30*30px</span></li>
+                        </ol>
+                    </li>
+                    <li class="up-item">
+                        <p>평일/공휴일 구분색 표시 > 명료한 스케쥴 선정 가능</p>
+                        <ol class="in-updata-group">
+                            <li class="inData-item"><span>평일 #151515/주말,공휴일 #E74343 (지난 일자 평일(#A5A8AC)/주말,공휴일(#FFCECE))</span></li>
+                        </ol>
+                    </li>
+                    <li class="up-item">
+                        <p>스케쥴 서비스 목록 별도 메뉴바 Icon 구성 > 서비스 제공 직관성 우선/텍스트 과다 디자인 중화</p>
+                        <ol class="in-updata-group">
+                            <li class="inData-item"><span>월,일일 스케쥴 페이지 별도 구성/스케쥴 목록표 구성 (그 외 메모,공유 등 기본 구성 유지)</span></li>
+                            <li class="inData-item"><span>스케쥴 확인에 방해되지 않도록 글라스피즘 적용 > 공감각 효과</span></li>
+                            <li class="inData-item"><span>아이콘 특성에 맞는 모션적용으로 경험성 증가</span></li>
+                        </ol>
+                    </li>
+                    <li class="up-item">
+                        <p>알람기능 추가 > 사용안함/소리/모달창(시각효과) > 시각 확인 가능한 알람창으로 알람 기능 강화</p>
+                        <ol class="in-updata-group">
+                            <li class="inData-item"><span>Google Style의 일러스트 디자인 알람창 구성</span></li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="section6" class="section main-visual">
+            <div class="visual-sec01-main-motion">
+                <img src="" alt="키 비주얼 모션">
+            </div>
+            <div class="visual-sec02-popup">
+                <div class="title">
+                    <h1>들을 수 없는 당신을 위해</h1>
+                    <p>회사원인 당신, 핸드폰 확인할 수 없는 당신. <a id="myBtn" class="blue">지금 당장</a> 클릭하세요!</p>
+                </div>
+            </div>
+            <div class="visual-sec03-service-menubar">
+                <p class="manubar-topbtn">새로운 시스템</p>
+                <div class="title">
+                    <h1>직관적인 서비스 메뉴 구성</h1>
+                    <p>공감각을 더해줄 글라스피즘 디자인과 시각적 경험으로 효과적인 정보 전달이 가능해요!</p>
+                </div>
+                
+                <div class="motion-service-vlsual">
+                    <img src="" alt="서비스 메뉴바 세부 모션">
+                    <p><img src="" alt="서비스 개설 프로토 영상"></p>
+                    <div class="title about-new-service">
+                        <h3>새로운 시스템</h3>
+                        <p>월별/ 일별/ 지난 메뉴 목록/ 환경설정 4가지 직관적 아이콘 디자인과
+                            <br>hover animation을 통해 시각 경험 서비스 구성했습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="visual-sec04-calendar-bookmark">
+                <div class="title">
+                    <h1>장기 스케줄 색갈 책갈피</h1>
+                    <p>
+                        기존의 탑에 쌓이는 복잡한 UI를 변경하였습니다.
+                        <br>일반/급함 단 두가지 구성으로 이루어진 스케줄 표와
+                        <br>책갈피된 장기 스케줄을 재밌는 인터렉션으로 확인하실 수 있어요!
+                    </p>
+                </div>
+                <img src="./img/bookmark.png" alt="북마크 프로토">
+            </div>
+            <div class="visual-sec05-counting-date">
+                <p class="date-topbtn">장기일정/시간체크 시스템</p>
+                <div class="title">
+                    <h1>스케줄 끝나기까지 얼마나 남았지?</h1>
+                    <span id="countdown" class="date-acounting"></span>
+                    <span class="timer-close">(종료시간: 오후 12시 00분)</span>
+                </div>
+                <div class="bot-visual-img01"><img src="" alt="날자 카운팅 프로토01"></div>
+                <div class="bot-visual-img02"><img src="" alt="날자 카운팅 프로토02"></div>
+            </div>
+            <div class="visual-sec06-laptop">
+                <h1>날자별로 움직이는 새로운 스케줄 차트를 만나보세요.</h1>
+                <img src="" alt="랩탑 프로토">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="google-fendes"></div>
+            <div class="footer-text-box">
+                <p>이 프로젝트는 너무 집중하다 스케줄을 까먹는 저를 위해 만들어 졌습니다.</p>
+                <span>회사에서는 소리 알림은 곤란하고 진동/휴대폰을 보면서 하기에는 집중하다 보면 잊어버리게 되었어요..</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
