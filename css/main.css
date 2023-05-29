@@ -22,6 +22,8 @@ section{position: relative; clear: both;}
     transform: translateY(0);
 }
 
+.moblie-sec01-imgGroup > video{background-color: #222222;}
+
 /* header ////////////*/
 header{
     position: relative;
