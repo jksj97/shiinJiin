@@ -127,7 +127,7 @@
     float: left;
     margin: 2rem 1rem 4rem 0;
 
-    width: 17.5rem;
+    width: 17rem;
     height: 11rem;
     background-color: #F8F9FA;
     border-radius: 0.8rem;
@@ -247,7 +247,7 @@
 /* 06 check-update: 업데이트 내역 체크*/
 .check-update{margin-top: 11.25rem; padding: 0 10rem; text-align: center;}
 
-.update-group{margin: 5rem 0; text-align: left; padding: 0 28rem;}
+.update-group{margin: 5rem 0; text-align: left; padding: 0 20rem;}
 .update-group > .up-item{position: relative; margin: 2.5rem 0;}
 .update-group > .up-item::before{
     content: " ";

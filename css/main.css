@@ -76,7 +76,7 @@ header .head-inner > a,
     border-radius: 4rem;
 }
 
-.problems, .show-problems{padding: 2.5rem 18.7rem;}
+.problems, .show-problems{padding: 2.5rem 18rem;}
 
 #scrollToTopButton {
     z-index: 98;
@@ -108,7 +108,7 @@ header .head-inner > a,
   
 /* Background Stlye */
 .calendar-layout,
-.service-analysis{background-color: #F8F9FA; border: none; border-radius: 1rem; padding: 0 13rem; margin-bottom: 0.5rem;}
+.service-analysis{background-color: #F8F9FA; border: none; border-radius: 1rem; padding: 0 6rem; margin-bottom: 0.5rem;}
 
 /* [data-aos]{background-color: #222222;} */
 .play-whiteBg{width: 100%; margin-bottom: 4px; background-color: white; border-radius: 24px;}

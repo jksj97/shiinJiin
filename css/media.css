@@ -1,8 +1,13 @@
 /* 미디어쿼리 */
-@media screen and (min-width: 1830px){
+@media screen and (max-width: 1920px){
     /* body {
         background-color: red;
-    } */
+    }  */
 
     /* google */
+    .problems, .show-problems{padding: 2.5rem 8rem !important;}
+
+    /* 아제옴 */
+    .pro-sec02 > .inner {gap: 30px;}
+
 }
