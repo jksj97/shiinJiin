@@ -1,4 +1,7 @@
 
+
+
+
 /* home /////////////////////////////*/
 .homeSect{
     z-index: 99;
@@ -43,7 +46,7 @@
 /* google calendar /////////////////////////////*/
 
 /* 01 top-bar:hey google */
-.top-bar-area{padding: 11rem 0; margin: auto; display: block; text-align: center;}
+.top-bar-area{padding: 8rem 0; margin: auto; display: block; text-align: center;}
 .google-assistant{padding: 3rem 0;}
 
 .google-speechBubble{position: relative; top: 1rem; display: inline-block;}
@@ -479,6 +482,7 @@ video#background-image{
 .wb-01 > .inner > .white-title > h1 {padding-bottom: 24px;}
 
 .protos-wb01{width: 100%; height: 846px; position: relative; top: 40px;}
+.protos-wb01 > video{width: 100%; height: 100%;}
 
 /* wb-02 */
 .wb-02 > .inner{display: flex; align-items: center; justify-content: left;}
