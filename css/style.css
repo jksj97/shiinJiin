@@ -46,7 +46,7 @@
 /* google calendar /////////////////////////////*/
 
 /* 01 top-bar:hey google */
-.top-bar-area{padding: 8rem 0; margin: auto; display: block; text-align: center;}
+.top-bar-area{padding: 15rem 0; margin: auto; display: block; text-align: center;}
 .google-assistant{padding: 3rem 0;}
 
 .google-speechBubble{position: relative; top: 1rem; display: inline-block;}
@@ -167,15 +167,16 @@
 
 /* 04 calendar-layout: 캘린더 디벨롭 전 후 비교*/
 
-.develop-layoutImg{position: relative; padding-bottom: 7.9rem;}
-.develop-layoutImg > .devel-imgGruop{text-align: center;}
-.develop-layoutImg > .devel-imgGruop > img:first-child{margin-left: 1.8rem;}
-.develop-layoutImg > span{text-align: left; margin-top: 1rem; font-size: 1rem; color:#B1B5BD;}
+.develop-layoutImg{position: relative; display: flex; align-items: center; padding-bottom: 7.9rem;}
+.develop-layoutImg > .devel-imgGruop{margin: auto;}
+.develop-layoutImg > .devel-imgGruop > video{border: 0; border-radius: 8px; box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);}
+.develop-layoutImg > .devel-imgGruop > video:first-child{margin-right: 2rem;}
+.develop-layoutImg > .devel-imgGruop > p{text-align: left; margin-top: 1rem; font-size: 1rem; color:#B1B5BD;}
 
 
 
 /* 05 service-analysis: 서비스 문제 분석*/
-.flow-analysisInner{padding: 0 24rem 8.4rem 24rem;}
+.flow-analysisInner{padding: 0 36rem 8.4rem 36rem;}
 .what-user-calendarPurpos,
 .what-calendar-serviceNow,
 .what-google-noService{margin-bottom: 6rem; width: 100%; position: relative;}
@@ -185,7 +186,7 @@
 .title-search-user > img{padding-right: 3.2rem;}
 
 .what-user-calendarPurpos > .search-pos-group{margin-top: 2rem; margin-left: 3.2rem;}
-.what-user-calendarPurpos > .search-pos-group > li{padding-bottom: 1%;}
+.what-user-calendarPurpos > .search-pos-group > li{padding-bottom: 2%;}
 
 
 .what-calendar-serviceNow > p{margin-bottom: 2rem;}
@@ -245,9 +246,10 @@
 
 
 /* 06 check-update: 업데이트 내역 체크*/
-.check-update{margin-top: 11.25rem; padding: 0 10rem; text-align: center;}
+.check-update{margin-top: 11.25rem; padding: 0 18rem; text-align: center;}
 
-.update-group{margin: 5rem 0; text-align: left; padding: 0 20rem;}
+.items-data{width: 30%; margin: auto;}
+.update-group{margin: 5rem 0; text-align: left;}
 .update-group > .up-item{position: relative; margin: 2.5rem 0;}
 .update-group > .up-item::before{
     content: " ";
@@ -288,6 +290,7 @@
 
 /* 07-2  modal*/
 .visual-sec02-popup > .title > p > a#myBtn{text-decoration: underline; cursor: pointer;}
+.visual-sec02-popup > .title > img{width: 40%; height: auto; margin-top: 70px;}
 
 /* 07-3  service-menubar*/
 .visual-sec03-service-menubar{padding: 0 18.75rem;}
@@ -302,16 +305,19 @@
 }
 .visual-sec03-service-menubar > .menubar-title{margin-bottom: 3rem;}
 
-.motion-service-vlsual > .about-new-service{text-align: left;}
+.motion-service-vlsual{width: 60%; margin: 70px auto 0 auto;}
+.motion-service-vlsual > .about-new-service{text-align: left; margin-left: 32px;}
 .motion-service-vlsual > .about-new-service > h3{font-weight: 400; font-size: 1.25rem; margin-bottom: 0.625rem;}
 .motion-service-vlsual > .about-new-service > p{color: #70757A;}
 
+.visual-sec03-service-menubar > .menuBar-imgGroup > video{margin: 4rem 0 1.9rem 0;}
 
 /* 07-4  visual-sec04-calendar-bookmark*/
-.visual-sec04-calendar-bookmark {padding: 5rem 18.75rem;}
-.visual-sec04-calendar-bookmark > .title{text-align: left; position: relative; bottom: 6rem;}
-.visual-sec04-calendar-bookmark > .title > p{color: #70757A;}
-.visual-sec04-calendar-bookmark > img{width: 28.125rem; height: 32.5rem;}
+.visual-sec04-calendar-bookmark {padding: 5rem 18rem;}
+.visual-sec04-calendar-bookmark > .bookMark-inner{width: 60%; margin: auto; display: flex; align-items: center; justify-content: space-between;}
+.visual-sec04-calendar-bookmark > .bookMark-inner > .title{text-align: left; padding-bottom: 10rem;}
+.visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{color: #70757A;}
+.visual-sec04-calendar-bookmark > .bookMark-inner > img{width: 28.125rem; height: 32.5rem;}
 
 
 /* 07-5  visual-sec05-counting-date*/

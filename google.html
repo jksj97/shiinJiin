@@ -41,6 +41,13 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
         <span class="close">확인</span>
+        <div class="inter-modalIMG">
+            <div class="text-modalCont">
+                <span>알림이 왔어요!</span>
+                <p class="blue">B회사 디자인 컨셉회의 &#40;강희문,김정희,신인턴&#41;</p>
+                <span>오후 1:30 ~ 오후 2:20</span>
+            </div>
+        </div>
         </div>
     </div>
 
@@ -181,13 +188,17 @@
                 </div>
                 <div class="develop-layoutImg">
                     <div class="devel-imgGruop">
-                        <img src="" alt="디벨롭되기 전 캘린더">
-                        <img src="" alt="디벨롭되고 후 캘린더">
+                        <video muted autoplay loop>
+                            <source src="./img/목록 left.mp4" type="video/mp4">
+                        </video>
+                        <video muted autoplay loop>
+                            <source src="./img/목록 right.mp4" type="video/mp4">
+                        </video>
+                        <p>
+                            사이드 메뉴의 클릭 영역을 40*40px 이지만 디자인 내부의 백그라운드 크기를 제외한 <br>
+                            크기는 20px 이하로 인식되기 때문에 터치 영역을 제외한 디자인의 크기를 10px 더 크기를 키웠습니다.
+                        </p>
                     </div>
-                    <span>
-                        사이드 메뉴의 클릭 영역을 40*40px 이지만 디자인 내부의 백그라운드 크기를 제외한 <br>
-                        크기는 20px 이하로 인식되기 때문에 터치 영역을 제외한 디자인의 크기를 10px 더 크기를 키웠습니다.
-                    </span>
                 </div>
             </div>
         </section>
@@ -207,7 +218,6 @@
                             <li class="pos blue">내 스케줄을 정리하기 위해서</li>
                             <li class="pos blue">스케줄를 공유해서 팀원들과 일정 조정을 하기 위해서</li>
                             <li class="pos">앞으로의 일정을 미리 정하기 위해서</li>
-                            <li class="pos">오늘 일정을 계획하기 위해서</li>
                             <li class="pos blue">오늘 일정을 계획하기 위해서</li>
                             <li class="pos">지난 일정에 무엇을 했는지 확인하기 위해서</li>
                         </ol>
@@ -338,35 +348,37 @@
             <div class="inner">
                 <h1>업데이트 내역을 확인해 주십시오.</h1>
 
-                <ol class="update-group">
-                    <li class="up-item">
-                        <p>사이즈 변경으로 사용성 확대</p>
-                        <ol class="in-updata-group">
-                            <li class="inData-item"><span>폰트 사이즈 변경: 최소 사이즈 12px/평균 사이즈 14px</span></li>
-                            <li class="inData-item"><span>캘린더 날자 버튼 영역 확대: 30*24px > 30*30px</span></li>
-                        </ol>
-                    </li>
-                    <li class="up-item">
-                        <p>평일/공휴일 구분색 표시 > 명료한 스케쥴 선정 가능</p>
-                        <ol class="in-updata-group">
-                            <li class="inData-item"><span>평일 #151515/주말,공휴일 #E74343 (지난 일자 평일(#A5A8AC)/주말,공휴일(#FFCECE))</span></li>
-                        </ol>
-                    </li>
-                    <li class="up-item">
-                        <p>스케쥴 서비스 목록 별도 메뉴바 Icon 구성 > 서비스 제공 직관성 우선/텍스트 과다 디자인 중화</p>
-                        <ol class="in-updata-group">
-                            <li class="inData-item"><span>월,일일 스케쥴 페이지 별도 구성/스케쥴 목록표 구성 (그 외 메모,공유 등 기본 구성 유지)</span></li>
-                            <li class="inData-item"><span>스케쥴 확인에 방해되지 않도록 글라스피즘 적용 > 공감각 효과</span></li>
-                            <li class="inData-item"><span>아이콘 특성에 맞는 모션적용으로 경험성 증가</span></li>
-                        </ol>
-                    </li>
-                    <li class="up-item">
-                        <p>알람기능 추가 > 사용안함/소리/모달창(시각효과) > 시각 확인 가능한 알람창으로 알람 기능 강화</p>
-                        <ol class="in-updata-group">
-                            <li class="inData-item"><span>Google Style의 일러스트 디자인 알람창 구성</span></li>
-                        </ol>
-                    </li>
-                </ol>
+                <div class="items-data">
+                    <ol class="update-group">
+                        <li class="up-item">
+                            <p>사이즈 변경으로 사용성 확대</p>
+                            <ol class="in-updata-group">
+                                <li class="inData-item"><span>폰트 사이즈 변경: 최소 사이즈 12px/평균 사이즈 14px</span></li>
+                                <li class="inData-item"><span>캘린더 날자 버튼 영역 확대: 30*24px &#62; 30*30px</span></li>
+                            </ol>
+                        </li>
+                        <li class="up-item">
+                            <p>평일/공휴일 구분색 표시 &#62; 명료한 스케쥴 선정 가능</p>
+                            <ol class="in-updata-group">
+                                <li class="inData-item"><span>평일 #151515/주말,공휴일 #E74343 (지난 일자 평일(#A5A8AC)/주말,공휴일(#FFCECE))</span></li>
+                            </ol>
+                        </li>
+                        <li class="up-item">
+                            <p>스케쥴 서비스 목록 별도 메뉴바 Icon 구성 &#62; 서비스 제공 직관성 우선/텍스트 과다 디자인 중화</p>
+                            <ol class="in-updata-group">
+                                <li class="inData-item"><span>월,일일 스케쥴 페이지 별도 구성/스케쥴 목록표 구성 (그 외 메모,공유 등 기본 구성 유지)</span></li>
+                                <li class="inData-item"><span>스케쥴 확인에 방해되지 않도록 글라스피즘 적용 &#62; 공감각 효과</span></li>
+                                <li class="inData-item"><span>아이콘 특성에 맞는 모션적용으로 경험성 증가</span></li>
+                            </ol>
+                        </li>
+                        <li class="up-item">
+                            <p>알람기능 추가 &#62; 사용안함/소리/모달창(시각효과) &#62; 시각 확인 가능한 알람창으로 알람 기능 강화</p>
+                            <ol class="in-updata-group">
+                                <li class="inData-item"><span>Google Style의 일러스트 디자인 알람창 구성</span></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
             </div>
         </section>
 
@@ -377,7 +389,8 @@
             <div class="visual-sec02-popup">
                 <div class="title">
                     <h1>들을 수 없는 당신을 위해</h1>
-                    <p>회사원인 당신, 핸드폰 확인할 수 없는 당신. <a id="myBtn" class="blue">지금 당장</a> 클릭하세요!</p>
+                    <p>회사원인 당신, 핸드폰 확인할 수 없는 당신. <a id="myBtn" class="blue" style="margin-left: 2.5px;">지금 당장</a> 클릭하세요!</p>
+                    <img src="./img/laptop-google.png" alt="">
                 </div>
             </div>
             <div class="visual-sec03-service-menubar">
@@ -388,8 +401,16 @@
                 </div>
                 
                 <div class="motion-service-vlsual">
-                    <img src="" alt="서비스 메뉴바 세부 모션">
-                    <p><img src="" alt="서비스 개설 프로토 영상"></p>
+                    <div class="menuBar-imgGroup">
+                        <video muted autoplay loop>
+                            <source src="./img/visual03.mp4" type="video/mp4">
+                        </video>
+                        <p>
+                            <video muted autoplay loop>
+                                <source src="./img/full.mp4" type="video/mp4">
+                            </video>
+                        </p>
+                    </div>
                     <div class="title about-new-service">
                         <h3>새로운 시스템</h3>
                         <p>월별/ 일별/ 지난 메뉴 목록/ 환경설정 4가지 직관적 아이콘 디자인과
@@ -399,15 +420,17 @@
                 </div>
             </div>
             <div class="visual-sec04-calendar-bookmark">
-                <div class="title">
-                    <h1>장기 스케줄 색갈 책갈피</h1>
-                    <p>
-                        기존의 탑에 쌓이는 복잡한 UI를 변경하였습니다.
-                        <br>일반/급함 단 두가지 구성으로 이루어진 스케줄 표와
-                        <br>책갈피된 장기 스케줄을 재밌는 인터렉션으로 확인하실 수 있어요!
-                    </p>
+                <div class="bookMark-inner">
+                    <div class="title">
+                        <h1>장기 스케줄 색갈 책갈피</h1>
+                        <p>
+                            기존의 탑에 쌓이는 복잡한 UI를 변경하였습니다.
+                            <br>일반/급함 단 두가지 구성으로 이루어진 스케줄 표와
+                            <br>책갈피된 장기 스케줄을 재밌는 인터렉션으로 확인하실 수 있어요!
+                        </p>
+                    </div>
+                    <img src="./img/bookmark.png" alt="북마크 프로토">
                 </div>
-                <img src="./img/bookmark.png" alt="북마크 프로토">
             </div>
             <div class="visual-sec05-counting-date">
                 <p class="date-topbtn">장기일정/시간체크 시스템</p>
@@ -419,10 +442,10 @@
                 <div class="bot-visual-img01"><img src="" alt="날자 카운팅 프로토01"></div>
                 <div class="bot-visual-img02"><img src="" alt="날자 카운팅 프로토02"></div>
             </div>
-            <div class="visual-sec06-laptop">
+            <!-- <div class="visual-sec06-laptop">
                 <h1>날자별로 움직이는 새로운 스케줄 차트를 만나보세요.</h1>
                 <img src="" alt="랩탑 프로토">
-            </div>
+            </div> -->
         </section>
     </div>
 

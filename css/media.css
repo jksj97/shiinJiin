@@ -1,13 +1,36 @@
 /* 미디어쿼리 */
 @media screen and (max-width: 1920px){
-    /* body {
+   /* body {
         background-color: red;
-    }  */
+    } */
 
     /* google */
-    .problems, .show-problems{padding: 2.5rem 8rem !important;}
+    .problems, 
+    .show-problems{padding: 2.5rem 9rem !important;}
+    .flow-analysisInner{padding: 0 13.5rem 8.4rem 13.5rem !important;}
+    .items-data{width: 50% !important; margin: auto;}
+
+
 
     /* 아제옴 */
     .pro-sec02 > .inner {gap: 30px;}
 
 }
+
+@media screen and (max-width: 2560px){
+    /* body {
+        background-color: red;
+    } */
+ 
+    /* google */
+    .problems, 
+    .show-problems{padding: 2.5rem 15rem !important;}
+    .flow-analysisInner{padding: 0 30rem 8.4rem 30rem !important;}
+    .items-data{width: 50% !important; margin: auto;}
+    .motion-service-vlsual{width: 80% !important;}                                                                                                                                                                                                  
+    .motion-service-vlsual > .about-new-service{padding-left: 56px;}
+ 
+    /* 아제옴 */
+    /* .pro-sec02 > .inner {gap: 30px;} */
+ 
+ }
