@@ -76,8 +76,7 @@ header .head-inner > a,
     border-radius: 4rem;
 }
 
-.problems, 
-.show-problems{padding: 5rem 24rem;}
+
 
 #scrollToTopButton {
     z-index: 98;
@@ -113,7 +112,6 @@ header .head-inner > a,
     background-color: #F8F9FA; 
     border: none; 
     border-radius: 1rem; 
-    padding: 0 18rem; 
     margin-bottom: 0.5rem;
 }
 
@@ -227,7 +225,7 @@ header .head-inner > a,
 
 
 /* footer ////////////*/
-footer{width: 100%;}
+footer{width: 100%; margin-top: 15rem;}
 .footer-inner{
     position: relative; 
     width: 100%; 

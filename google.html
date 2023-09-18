@@ -18,7 +18,7 @@
             <a href="#" class="whiteBtn" onclick="location.href='index.html'">home</a>
             <ul id="mainMenu">
                 <li class="main-project"><a href="#" class="mainbtns" onclick="location.href='google.html'">Google calendar</a></li>
-                <li class="main-project"><a href="#" class="mainbtns" onclick="location.href='ringtok.html'">RingTok</a></li>
+                <!-- <li class="main-project"><a href="#" class="mainbtns" onclick="location.href='ringtok.html'">RingTok</a></li> -->
                 <li class="main-project"><a href="#" class="mainbtns" onclick="location.href='ahJeom.html'">ㅏ(ah)-Jeom</a></li>
             </ul>
         </div>
@@ -188,12 +188,14 @@
                 </div>
                 <div class="develop-layoutImg">
                     <div class="devel-imgGruop">
-                        <video muted autoplay loop>
-                            <source src="./img/목록 left.mp4" type="video/mp4">
-                        </video>
-                        <video muted autoplay loop>
-                            <source src="./img/목록 right.mp4" type="video/mp4">
-                        </video>
+                        <div class="video-group">
+                            <video muted autoplay loop>
+                                <source src="./img/목록 left.mp4" type="video/mp4">
+                            </video>
+                            <video muted autoplay loop>
+                                <source src="./img/목록 right.mp4" type="video/mp4">
+                            </video>
+                        </div>
                         <p>
                             사이드 메뉴의 클릭 영역을 40*40px 이지만 디자인 내부의 백그라운드 크기를 제외한 <br>
                             크기는 20px 이하로 인식되기 때문에 터치 영역을 제외한 디자인의 크기를 10px 더 크기를 키웠습니다.
@@ -405,7 +407,7 @@
                         <video muted autoplay loop>
                             <source src="./img/visual03.mp4" type="video/mp4">
                         </video>
-                        <p>
+                        <p class="direct-menuBar">
                             <video muted autoplay loop>
                                 <source src="./img/full.mp4" type="video/mp4">
                             </video>
