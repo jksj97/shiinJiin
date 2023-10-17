@@ -224,6 +224,15 @@ header .head-inner > a,
 .wb-03 > .inner > .custom-cont > .white-title > span{font-size: 1rem; font-weight: 200; color: white; background-color: #151515; border-radius: 50px; border: none; padding: 13px 24px; margin-right: 12px;}
 
 
+
+/* some-bg */
+.some-bg{text-align: center; background-color: rgba(21, 21, 21, 86); margin-bottom: 2px; width: 100%;}
+.some-bg > .some-bg{margin: 0 auto;}
+.some-bg:last-child{margin-bottom: 0px;}
+.sec08{position: relative; width: 100%;}
+.sec08 > video{position: absolute; top: 38%; left: 30%; transform: translate(-50px, -50px);}
+
+
 /* footer ////////////*/
 footer{width: 100%; margin-top: 15rem;}
 .footer-inner{

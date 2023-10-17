@@ -5,7 +5,7 @@ html, button{font-family: 'Noto Sans KR', sans-serif; font-size: 18px; color: #1
 
 h1{font-size: 1.778rem; font-weight: 400;}
 p{padding: 0.1rem 0; line-height: 1.75rem;}
-.branName, span{font-size: 0.778rem;}
+.branName, span{font-size: 0.8em;}
 
 .title > h1{font-size: 1.778rem; margin-bottom: 0.75rem;}
 .title > p{font-size: 1rem;}
@@ -32,3 +32,6 @@ p{padding: 0.1rem 0; line-height: 1.75rem;}
 .inData-item > span{color:#70757A;}
 
 .update-group > p{font-size: 1rem;}
+
+/* ah-jeom:: sec00Project-planProcess */
+.sec00Project-planProcess > ol > li > .text-planInner > p{color: white;}

@@ -29,8 +29,8 @@
 
 
     .pro-sec02{padding: 0 30rem; width: 100%; height: auto; overflow: hidden;} 
-    .pro-sec02 > .inner {width: 80%; margin: 0 auto; justify-content: space-between !important;}
-    .pro-sec02 > .inner > .title{padding-left: 0rem;}
+    .pro-sec00, .pro-sec02 > .inner {width: 80%; margin: 0 auto; justify-content: space-between !important;}
+    .pro-sec00, .pro-sec02 > .inner > .title{padding-left: 0rem;}
     .moblie-sec02-imgGroup{position: relative; left: 10rem;}
 
     .pro-sec03 > .inner > .title{padding: 0 41rem;}
@@ -90,8 +90,8 @@
 
 
     .pro-sec02{padding: 0 30rem; width: 100%; height: auto; overflow: hidden;} 
-    .pro-sec02 > .inner {width: 100%;}
-    .pro-sec02 > .inner > .title{padding-left: 2rem;}
+    .pro-sec00, .pro-sec02 > .inner {width: 100%;}
+    .pro-sec00, .pro-sec02 > .inner > .title{padding-left: 2rem;}
     .moblie-sec02-imgGroup{position: relative; left: 10rem;}
 
     .pro-sec03 > .inner > .title{padding: 0 32rem;}
@@ -159,7 +159,7 @@
     .pro-sec01 > .inner > .title{padding: 0 16.667rem;}
 
     .pro-sec02{padding: 0 13rem; width: 100%; height: auto; overflow: hidden;} 
-    .pro-sec02 > .inner {gap: 0px; position: relative; left: 5%;}
+    .pro-sec00, .pro-sec02 > .inner {gap: 0px; position: relative; left: 5%;}
     .sec01-gallrey-group > .lineBoxs > .line-box{width: 100%; padding: 0 42rem;}
 
     .ci1{top: -3px; right: -6rem;}
