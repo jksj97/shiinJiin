@@ -25,6 +25,7 @@ section{position: relative; clear: both;}
 .moblie-sec01-imgGroup > video{background-color: #222222;}
 
 /* header ////////////*/
+.bottom{display: none;}
 header{
     position: relative;
     z-index: 1;
@@ -42,7 +43,7 @@ header{
 .darkmode > .head-inner > #mainMenu > li > a{color: white;}
 
 header .head-inner{width: 100%; display: flex; align-items: center; justify-content: space-between;}
-header .head-inner > a,
+header .head-inner > a {font-size: 0.778rem;}
 .sub-menu > ul > li > a{font-size: 0.778rem; padding-bottom: 8px;}
 
 .homeBtn{color: #70757A;}
@@ -233,15 +234,21 @@ header .head-inner > a,
 .sec08 > video{position: absolute; top: 38%; left: 30%; transform: translate(-50px, -50px);}
 
 
+/* SOMETHME */
+.some-bg{position: relative; width: 100%;}
+.some-bg > .bg{width: 100%;}
+.some-bg > .bg > img{width: 100%;}
+
+
+
 /* footer ////////////*/
-footer{width: 100%; margin-top: 15rem;}
+footer{width: 100%; padding: 2% 5% 43% 5%;}
 .footer-inner{
     position: relative; 
     width: 100%; 
     height: auto; 
     text-align: center; 
-    background-color: #F8F9FA; 
-    padding: 8rem 0;
+    color: #70757A;
 }
 .footer-inner > .google-fendes{
     position: absolute;
