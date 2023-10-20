@@ -1,4 +1,18 @@
 /* 미디어쿼리 */
+@media screen and (min-width: 1080px) and (max-width: 3071px){
+    .body{min-width: 1000px;}
+    
+    .sub-menu{
+        top: 50%; 
+        left: -5%; 
+        transform: translate(-50%, -50%); 
+    }
+    .sub-menu.visible{left: 4%;}
+    .sub-menu > ul > li{margin-bottom: 0.556rem;}
+
+    .top-bar-area{padding: 15rem 0;}
+
+}
 @media screen and (min-width: 3071px){
     /* body{background-color: blue;} */
     
@@ -225,4 +239,42 @@
 
     .about > .detail-index > .tell-aboutMe{padding-bottom: 25% !important;}
 
+    /* Google */
+    .sub-menu{
+        transform: translate(-50%, -50%);
+        left: 50%;
+        bottom: 6%; 
+        background-color: rgba(251, 251, 254, 0.86);
+        backdrop-filter: blur(6px);
+        width: 328px;
+        height: auto;
+        border-radius: 32px; 
+        column-count: 2;
+    }
+    .sub-menu > ul{
+        position: relative;
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1%; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center;
+    }
+    .sub-menu > ul > li{margin: 0 16px; text-align: center; padding: 10px 16px; display: flex; align-items: center;}
+
+    .top-bar{width: 100%; height: 100vh; position: relative;}
+    .top-bar-area{
+        width: 100%; 
+        height: 50%; 
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -65%);
+    }
+    
+    .problems{padding: 0 16px; position: relative;}
+    .problem > .inner{width: 100%;}
+    .bubble-groups > li{width: 100%; padding: 10% 2%;}
 }

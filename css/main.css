@@ -123,16 +123,11 @@ header .head-inner > a {font-size: 0.778rem;}
 /* sub-menu ////////////*/
 .sub-menu{
     position: fixed; 
-    top: 50%; 
-    left: -5%; 
     transition: all 0.5s ease-in-out; 
-    transform: translate(-50%, -50%); 
     z-index: 100;
 }
-.sub-menu > ul > li{margin-bottom: 0.556rem;}
 .sub-menu > ul > li > a{color: #B1B5BD; font-size: 0.8rem;}
 
-.sub-menu.visible{left: 4%;}
 .sub-menu a.active {color: #0080FF;}
 
 

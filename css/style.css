@@ -46,7 +46,7 @@
 /* google calendar /////////////////////////////*/
 
 /* 01 top-bar:hey google */
-.top-bar-area{padding: 15rem 0; margin: auto; display: block; text-align: center;}
+.top-bar-area{margin: auto; display: block; text-align: center;}
 .google-assistant{padding: 3rem 0;}
 
 .google-speechBubble{position: relative; top: 1rem; display: inline-block;}
