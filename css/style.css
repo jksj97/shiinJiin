@@ -186,10 +186,10 @@
 
 
 .what-calendar-serviceNow > p{margin-bottom: 2rem;}
-.what-calendar-serviceNow > .lendar-service-group{position: relative; display: flex; align-items: center;}
-.what-calendar-serviceNow > .lendar-service-group > li{width: 100%; height: 18rem; text-align: center; margin-left: 0.5rem;}
+.what-calendar-serviceNow > .lendar-service-group{position: relative;}
+.what-calendar-serviceNow > .lendar-service-group > li{text-align: center; margin-left: 0.5rem;}
 
-.name-service > p{margin-top: 1rem; font-size: 0.875rem;}
+.name-service > p{font-size: 0.875rem;}
 
 .eache-service{margin: 0.5rem auto 0 auto; list-style-position: outside; width: 86%;}
 .eache-service li{
@@ -221,7 +221,7 @@
 
 /* 05 service-analysis: 서비스 문제 분석 내부 디자인 시작 */
 .calendar-checkLayout,
-.calendar-serch-chcek{padding: 4rem 0; text-align: center;}
+.calendar-serch-chcek{text-align: center;}
 .calendar-checkLayout > p,
 .calendar-serch-chcek > p{margin-bottom: 1rem;}
 .calendar-checkLayout > img,
