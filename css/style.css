@@ -158,6 +158,7 @@
     top: 0;
     color: #B1B5BD;
     margin-bottom: 6rem;
+    padding: 1% 3rem;
 }
 .btnSize-otherBrand > p{margin-bottom: 0.4rem;}
 
@@ -284,7 +285,7 @@
 
 /* 07-2  modal*/
 .visual-sec02-popup > .title > p > a#myBtn{text-decoration: underline; cursor: pointer;}
-.visual-sec02-popup > .title > img{width: 40%; height: auto; margin-top: 70px;}
+.visual-sec02-popup > .title > img{width: 60%; height: auto; margin-top: 70px;}
 
 /* 07-3  service-menubar*/
 .visual-sec03-service-menubar > .manubar-topbtn{
@@ -308,7 +309,7 @@
 
 /* 07-4  visual-sec04-calendar-bookmark*/
 .visual-sec04-calendar-bookmark {padding: 5rem 18rem;}
-.visual-sec04-calendar-bookmark > .bookMark-inner{margin: auto; display: flex; align-items: center; justify-content: space-between;}
+.visual-sec04-calendar-bookmark > .bookMark-inner{margin: auto; display: flex; gap: 12rem; align-items: center; justify-content: space-between;}
 .visual-sec04-calendar-bookmark > .bookMark-inner > .title{text-align: left; padding-bottom: 10rem;}
 .visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{color: #70757A;}
 .visual-sec04-calendar-bookmark > .bookMark-inner > img{width: 28.125rem; height: 32.5rem;}
