@@ -1,6 +1,11 @@
 /* 미디어쿼리 */
 @media screen and (min-width: 1080px) and (max-width: 3071px){
     .body{min-width: 1000px;}
+
+    #scrollToTopButton {
+        bottom: 46px;
+        right: 46px;
+    }
     
     .sub-menu{
         top: 50%; 
@@ -55,6 +60,19 @@
 
     .calendar-checkLayout,
     .calendar-serch-chcek{padding: 4rem 0;}
+
+    /* Somethm///////////////////////// */
+    .some-sec > .conts {width: 90%; background-size: cover;}
+
+    .some-sec > .con01{text-align: center; height: 540px; background: url("../img/some01.png") no-repeat;}
+    .some-sec > .con02{text-align: center; height: 930px; background: url("../img/some02.png") no-repeat;}
+    .some-sec > .con03{text-align: center; height: 1800px; background: url("../img/some03.png") no-repeat;}
+    .some-sec > .con04{text-align: center; height: 5730px; background: url("../img/some04.png") no-repeat;}
+    .some-sec > .con05{text-align: center; height: 1080px; background: url("../img/some05.png") no-repeat;}
+    .some-sec > .con06{text-align: center; height: 1207px; background: url("../img/some06.png") no-repeat;}
+    .some-sec > .con07{text-align: center; height: 1207px; background: url("../img/some07.png") no-repeat;}
+    .some-sec > .con08{text-align: center; height: 1884px; background: url("../img/some08.png") no-repeat;}
+
 
 }
 @media screen and (min-width: 3071px){
@@ -267,6 +285,12 @@
     #bottommainMenu > .bot-main-project{float: left; padding: 20px 0 20px 20px; cursor: pointer;}
     
     .body{width: 100%;}
+
+    #scrollToTopButton {
+        bottom: 11%;
+        right: 26px;
+    }
+
     .homeSect{
         margin-top: 100vh !important;
         width: 100% !important;
@@ -383,5 +407,71 @@
     } 
     .calendar-checkLayout{padding: 2rem 0 1rem 0;}
     .calendar-serch-chcek{padding: 0 0 3rem 0;}
+
+
+
+    /* Somethm///////////////////////// */
+    .some-sec{width: 100%; overflow: hidden; position: relative;}
+    .some-sec > .conts { margin: 0 auto; text-align: center;}
+
+    .some-sec > .con01,
+    .some-sec > .con02,
+    .some-sec > .con03,
+    .some-sec > .con04,
+    .some-sec > .con05,
+    .some-sec > .con06{padding: 0 16px;}
+
+    .some-sec > .con01{text-align: center; height: 640px; background: url("../img/some-01.png") no-repeat center bottom;}
+    .some-sec > .con02{text-align: center; height: 983px; background: url("../img/some-02.png") no-repeat center top;}
+    .some-sec > .con03{text-align: center; height: 4113px; background: url("../img/some-03.png") no-repeat center bottom 40px;}
+    .some-sec > .con04{text-align: center; height: 3964px; background: url("../img/some-04.png") no-repeat center bottom 40px;}
+    .some-sec > .con05{text-align: center; height: 991px; background: url("../img/some-05.png") no-repeat center bottom 40px;}
+    .some-sec > .con06{text-align: center; height: 815px; background: url("../img/some-06.png") no-repeat center bottom 40px;}
+    
+    .some-sec > .con07{
+        width: 100vw;
+        height: 1053px; 
+        text-align: center; 
+        background: url("../img/some-07bg.png") no-repeat; 
+        background-size: cover;
+    }
+    .some-sec > .con07 > .in-con{
+        position: relative;
+        top: 84px;
+        height: 909px; 
+        text-align: center; 
+        background: url("../img/some-07.png") no-repeat center;
+    }
+
+    .some08{position: relative; bottom: 0;}
+    .some-sec > .con08{
+        z-index: -2;
+        text-align: center; 
+        height: 1784px; 
+        background: url("../img/some-08.png") no-repeat left 16px top 84px;
+    }
+    .some-sec > .con08 > .img-vidoe-group {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .some-sec > .con08 > .img-vidoe-group > video {
+        position: absolute;
+        top: 43%;
+        right: -74%;
+        transform: translate(-50px, -50px);
+        width: 1080px;
+        height: auto;
+    }
+    .some-sec > .con08 > .img-vidoe-group > .bot-img{
+        position: absolute;
+        bottom: 1.8%;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        background: url("../img/some-08bg.png") no-repeat center;
+    }
+
 
 }

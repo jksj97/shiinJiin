@@ -82,8 +82,6 @@ header .head-inner > a {font-size: 0.778rem;}
     display: none;
 
     position: fixed;
-    bottom: 46px;
-    right: 46px;
     /* style */
     background-color: #0080FF;
     color: #fff;
@@ -234,7 +232,7 @@ header .head-inner > a {font-size: 0.778rem;}
 
 
 /* footer ////////////*/
-footer{width: 100%; padding: 2% 5% 43% 5%;}
+footer{width: 100%;}
 .footer-inner{
     position: relative; 
     width: 100%; 

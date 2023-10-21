@@ -572,3 +572,16 @@ video#background-image{
 .protoImages-showGroup > .items-end > .end-item:nth-child(3){background: url("../img/last-03.png") no-repeat center; background-size: cover;}
 .protoImages-showGroup > .items-end > .end-item:nth-child(4){background: url("../img/last-04.png") no-repeat center; background-size: cover;}
 
+
+
+
+
+/* SOMETHM ////////////////////*/
+.somesec{width:100%; height: auto; background-color: #151515; margin-bottom: 2px; text-align: center;}
+.somesec > .inner{width: 100%;}
+
+.some-sec{width: 100%; margin: 0 auto; text-align: center;}
+.some-sec > .conts { margin: 0 auto;}
+
+
+
