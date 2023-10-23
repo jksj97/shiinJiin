@@ -6,6 +6,13 @@
         bottom: 46px;
         right: 46px;
     }
+    
+    /* Modal */
+    .modal-content {
+        top: -25%;
+        width: 24%;
+        height: 26%;
+    }
 
     /* Google///////////////////////// */
     #section1,
@@ -70,6 +77,13 @@
     .calendar-serch-chcek{padding: 4rem 0;}
 
     #section5 > .inner > .items-data{width: 60%; margin: 3rem auto 0 auto;}
+    .in-updata-group{margin: 1rem 0; border-left: 3px dashed #E4E4E4;}
+    .in-updata-group > li > span{margin-left: 3rem; position: relative;}
+
+    .visual-sec02-popup > .title > img{width: 60%;}
+    .motion-service-vlsual{width: 60%;}
+    .motion-service-vlsual > .about-new-service{margin-left: 2rem;}
+
 
     footer{margin-top: 10rem;}
     .google-foot{background-color: #F8F9FA; padding: 4% 0 2% 0;}
@@ -349,6 +363,12 @@
     .about > .detail-index > .tell-aboutMe{padding-bottom: 25% !important;}
 
     /* Google */
+    .modal-content {
+        top: -5%;
+        width: 90%;
+        height: 40%;
+    }
+    .text-modalCont > p{padding: 0 26px;}
     .google  h1{font-size: 26px;}
     .sub-menu{
         transform: translate(-50%, -50%);
@@ -451,7 +471,15 @@
 
     .end-analysis{padding-bottom: 3rem;}
 
+    #section5{padding: 0 16px;}
+    .in-updata-group{border-left: none;}
 
+    #section6 > .visual-sec02-popup > .title > p{padding: 0 3rem;}
+    .visual-sec02-popup > .title > img{width: 100%; margin-top: 2rem;}
+    .motion-service-vlsual{width: 100%;}
+    .menuBar-imgGroup > video,
+    .menuBar-imgGroup > .direct-menuBar > video {width: 100%;}
+    .motion-service-vlsual > .about-new-service{margin-left: 0;}
 
     /* Somethm///////////////////////// */
     .some-sec{width: 100%; overflow: hidden; position: relative;}
@@ -512,7 +540,7 @@
         top: -3%;
         margin: 20% 0;
     }
-.some-sec > .con08 > .bot-img{
+    .some-sec > .con08 > .bot-img{
         margin-top: 10%;
         position: absolute;
         bottom: 30px;
@@ -521,7 +549,13 @@
         height: 300px;
         background: url("../img/some-08bg.png") no-repeat center;
     }
+    .update-group > .up-item{margin: 3.5rem 0 !important;}
+    .update-group > .up-item::before{display: none !important;}
+    .in-updata-group{margin-top: 16px;}
+    .in-updata-group > li{padding: 0 !important;}
+    .in-updata-group > li > span{margin-left: 2rem; line-height: 2rem;}
 
+    #section6{padding: 0 16px;}
 
 
 }

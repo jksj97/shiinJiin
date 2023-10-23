@@ -144,7 +144,7 @@ header .head-inner > a {font-size: 0.778rem;}
     display: block;
     opacity: 1;
 }
-
+/* 
 @media screen and (max-width: 1920px){
 
     .modal-content{
@@ -153,16 +153,13 @@ header .head-inner > a {font-size: 0.778rem;}
         height: 24% !important;
     }
     
-}
+} */
 .modal-content {
     position: relative;
-    top: -25%;
     left: 0;
     background-color: #fefefe;
     margin: 15% auto;
     border: 1px solid #888;
-    width: 24%;
-    height: 26%;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
     opacity: 0;

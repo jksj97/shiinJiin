@@ -258,9 +258,8 @@
     left: -3.2rem;
 }
 
-.in-updata-group{margin: 1rem 0; border-left: 3px dashed #E4E4E4;}
 .in-updata-group > li{padding: 1.2% 0;}
-.in-updata-group > li > span{margin-left: 3rem; position: relative;}
+.in-updata-group > li > span{position: relative;}
 .in-updata-group > li  > span::before{
     content: " ";
     background: url("../img/70-check-icon.png") no-repeat;
@@ -285,7 +284,7 @@
 
 /* 07-2  modal*/
 .visual-sec02-popup > .title > p > a#myBtn{text-decoration: underline; cursor: pointer;}
-.visual-sec02-popup > .title > img{width: 60%; height: auto; margin-top: 70px;}
+.visual-sec02-popup > .title > imgheight: auto; margin-top: 70px;}
 
 /* 07-3  service-menubar*/
 .visual-sec03-service-menubar > .manubar-topbtn{
@@ -299,8 +298,8 @@
 }
 .visual-sec03-service-menubar > .menubar-title{margin-bottom: 3rem;}
 
-.motion-service-vlsual{width: 60%; margin: 70px auto 0 auto;}
-.motion-service-vlsual > .about-new-service{text-align: left; margin-left: 32px;}
+.motion-service-vlsual{margin: 70px auto 0 auto;}
+.motion-service-vlsual > .about-new-service{text-align: left;}
 .motion-service-vlsual > .about-new-service > h3{font-weight: 400; font-size: 1.25rem; margin-bottom: 0.625rem;}
 .motion-service-vlsual > .about-new-service > p{color: #70757A;}
 
