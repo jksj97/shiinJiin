@@ -1,5 +1,5 @@
 /* 미디어쿼리 */
-@media screen and (min-width: 1080px) and (max-width: 3071px){
+@media screen and (min-width: 1080px) and (max-width: 3073px){
     .body{min-width: 1000px;}
 
     #scrollToTopButton {
@@ -57,10 +57,6 @@
         padding-bottom: 7.9rem;
     }
 
-    .what-user-calendarPurpos,
-    .what-calendar-serviceNow,
-    .what-google-noService{padding: 0 18rem;}
-
     .end-analysis{padding-bottom: 5rem;}
 
     .what-calendar-serviceNow > .lendar-service-group{display: flex; align-items: center;}
@@ -87,15 +83,31 @@
     /* Somethm///////////////////////// */
     .some-sec > .conts {width: 90%; background-size: cover;}
 
-    .some-sec > .con01{text-align: center; height: 540px; background: url("../img/some01.png") no-repeat;}
-    .some-sec > .con02{text-align: center; height: 930px; background: url("../img/some02.png") no-repeat;}
-    .some-sec > .con03{text-align: center; height: 1800px; background: url("../img/some03.png") no-repeat;}
-    .some-sec > .con04{text-align: center; height: 5730px; background: url("../img/some04.png") no-repeat;}
-    .some-sec > .con05{text-align: center; height: 1080px; background: url("../img/some05.png") no-repeat;}
-    .some-sec > .con06{text-align: center; height: 1207px; background: url("../img/some06.png") no-repeat;}
-    .some-sec > .con07{text-align: center; height: 1207px; background: url("../img/some07.png") no-repeat;}
-    .some-sec > .con08{text-align: center; height: 1884px; background: url("../img/some08.png") no-repeat;}
+    .some-sec > .con01{text-align: center; height: 540px; background: url("../img/some01.png") no-repeat center center;}
+    .some-sec > .con02{text-align: center; height: 930px; background: url("../img/some02.png") no-repeat center center;}
+    .some-sec > .con03{text-align: center; height: 1800px; background: url("../img/some03.png") no-repeat center center;}
+    .some-sec > .con04{text-align: center; height: 5730px; background: url("../img/some04.png") no-repeat center center;}
+    .some-sec > .con05{text-align: center; height: 1080px; background: url("../img/some05.png") no-repeat center center;}
+    .some-sec > .con06{text-align: center; height: 1207px; background: url("../img/some06.png") no-repeat center center;}
+    .some-sec > .con07{text-align: center; height: 1207px; background: url("../img/some07.png") no-repeat center center;}
+    .some-sec > .con08{text-align: center; height: 1884px; background: url("../img/some08.png") no-repeat center center;}
+    .con08{
+        /* border: 1px solid red;  */
+        display: flex;
 
+        align-items: center;
+        justify-content: center;
+        position: relative; 
+        width: 100%; 
+        height: 100%;
+    }
+    .img-vidoe-group{
+        /* border: 1px solid red;  */
+        width: 100%;
+        /* height: 100%; */
+        position: relative;
+        top: 8%;
+    }
 
 }
 @media screen and (min-width: 3071px){
@@ -105,6 +117,9 @@
     .problems, .show-problems{padding: 5rem 24rem;}
     .calendar-layout, .service-analysis{padding: 0 18rem;}
     .flow-analysisInner{padding: 0 40rem 8.4rem 40rem;}
+    .what-user-calendarPurpos,
+    .what-calendar-serviceNow,
+    .what-google-noService{padding: 0;}
     .check-update{padding: 0 18rem;}
     .visual-sec03-service-menubar{padding: 0 18.75rem;}
     .visual-sec04-calendar-bookmark {padding: 5rem 18rem;}
@@ -166,7 +181,10 @@
  
     /* google //////*/
     .problems, .show-problems{padding: 2.5rem 18rem;}
-    .flow-analysisInner{padding: 0 48rem 8.4rem 48rem;}
+    .flow-analysisInner{padding: 0 10rem 8.4rem 10rem;}
+    .what-user-calendarPurpos,
+    .what-calendar-serviceNow,
+    .what-google-noService{padding: 0 18rem;}
     .items-data{width: 50%; margin: auto;}
     .motion-service-vlsual{width: 80%;}                                                                                                                                                                                                  
     .motion-service-vlsual > .about-new-service{padding-left: 56px;}
@@ -225,7 +243,7 @@
 
     /* google //////*/
     .problems, .show-problems{padding: 2.5rem 14rem;}
-    .flow-analysisInner{padding: 0 32rem 8.4rem 32rem;}
+    .flow-analysisInner{padding: 0 10rem 8.4rem 10rem;}
     .items-data{width: 50%; margin: auto;}
 
     #section3 {padding: 0 12rem;}
@@ -468,33 +486,40 @@
 
     .some08{position: relative; bottom: 0;}
     .some-sec > .con08{
-        z-index: -2;
-        text-align: center; 
-        height: 1784px; 
-        background: url("../img/some-08.png") no-repeat left 16px top 84px;
-    }
-    .some-sec > .con08 > .img-vidoe-group {
-        position: relative;
+        /* border: 10px solid red; */
         width: 100%;
-        height: 100%;
-    }
-    .some-sec > .con08 > .img-vidoe-group > video {
-        position: absolute;
-        top: 43%;
-        right: -74%;
-        transform: translate(-50px, -50px);
-        width: 1080px;
         height: auto;
+        padding: 20rem 0; 
+        background: url("../img/some-08.png") no-repeat left 16px top 84px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        overflow: hidden;
+        position: relative;
     }
-    .some-sec > .con08 > .img-vidoe-group > .bot-img{
-        position: absolute;
-        bottom: 1.8%;
-        left: 0;
-        text-align: center;
+
+    .img-vidoe-group{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
+        height: auto;
+        position: relative;
+        top: -3%;
+        margin: 20% 0;
+    }
+.some-sec > .con08 > .bot-img{
+        margin-top: 10%;
+        position: absolute;
+        bottom: 30px;
+        text-align: center;
+        width: 100vw;
         height: 300px;
         background: url("../img/some-08bg.png") no-repeat center;
     }
+
 
 
 }
