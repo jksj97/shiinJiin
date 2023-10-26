@@ -21,8 +21,12 @@ a{color: #70757A;}
 .pro-asisstant-answer > .asisstant-speech > p{font-size: 1rem;}
 
 @media screen and (min-width: 360px) and (max-width: 812px){
+    html, button{font-family: 'Noto Sans KR', sans-serif; font-size: 16px; color: #151515;}
 
-    .layout-topTitle{text-align: left; padding: 7.8rem 16px 5.6rem 16px;}
+    .title > p{color: #70757A;}
+
+    .layout-topTitle{text-align: left; padding: 7.8rem 16px 4.5rem 16px;}
+    .layout-topTitle > p{color: #70757A;}
 
 }
 @media screen and (min-width: 1080px) and (max-width: 3073px){
