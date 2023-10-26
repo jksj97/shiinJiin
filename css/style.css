@@ -4,7 +4,7 @@
 
 /* home /////////////////////////////*/
 .homeSect{
-    z-index: 99;
+    z-index: 97;
     opacity: 0;
     padding: 8.889rem 0;
     position: relative;
@@ -81,7 +81,7 @@
 
 .bubble-groups li:nth-child(5){margin-top: 7rem;}
 .bubble-groups li:nth-child(5)::before{
-    z-index: -1;  
+    z-index: -2;  
     content: " ";
     background: url("../img/loding.svg") no-repeat center;
     display: inline-block;
@@ -92,7 +92,7 @@
     left: 0;
 }
 .bubble-groups li:nth-child(5)::after{
-    z-index: -1;  
+    z-index: -2;  
     content: " ";
     background: url("../img/bubble-tail.svg") no-repeat;
     background-size: cover;
@@ -112,7 +112,6 @@
 
 /* 03 show problems: 문제점 분석 완료, 결과 눈으로 보여주기 */
 .show-problems{margin: 10rem auto 0 auto;}
-/* .inner{border: 1px solid red;} */
 .show-problems > .inner > .top-showPro{text-align: center;}
 .show-nowCalendar{margin-top: 3.5rem;}
 .show-nowCalendar > p {margin-bottom: 1rem; color: #70757A;}
@@ -284,7 +283,7 @@
 
 /* 07-2  modal*/
 .visual-sec02-popup > .title > p > a#myBtn{text-decoration: underline; cursor: pointer;}
-.visual-sec02-popup > .title > imgheight: auto; margin-top: 70px;}
+.visual-sec02-popup > .title > img{height: auto; margin-top: 70px;}
 
 /* 07-3  service-menubar*/
 .visual-sec03-service-menubar > .manubar-topbtn{
@@ -347,7 +346,7 @@
 .counting-typeText:nth-child(3) > span{color: #118A31;}
 
 .visual-sec05-counting-date > .bot-visual-img02{width: 60%; height: auto; margin: 36px auto; border-radius: 24px; border: none; box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);}
-.visual-sec05-counting-date > .bot-visual-img02 > video {width: 100%; height: auto;}
+.visual-sec05-counting-date > .bot-visual-img02 > img {width: 100%; height: auto;}
 
 
 
@@ -395,7 +394,7 @@ video#background-image{
 
 /* sect01 */
 .jeomSect{
-    z-index: 99;
+    z-index: 101;
     opacity: 0;
     position: relative;
     margin-top: 50%;

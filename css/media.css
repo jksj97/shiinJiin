@@ -1,4 +1,249 @@
 /* 미디어쿼리 */
+@media screen and (min-width: 360px) and (max-width: 812px){ 
+    #main-menu {display: none !important;}
+    .bottom{
+        z-index: 105;
+        position: fixed;
+
+        width: 100vw;
+        height: auto;
+        padding: 3% 1%;
+        bottom: 0;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px 12px 0 0;
+        background-color: white;
+
+        box-shadow: 0 0 24px rgba(0, 0, 0, .16);
+    }
+    .bottom > .bottom-inner{display: flex; align-items: center; justify-content: center;}
+    .bottom > .bottom-inner > a, 
+    #bottommainMenu > .bot-main-project > .bot-mainbtns{color: #151515 !important; font-size: 17px !important;}
+    #bottommainMenu > .bot-main-project{float: left; padding: 20px 0 20px 20px; cursor: pointer;}
+    
+    .body{width: 100%;}
+
+    #scrollToTopButton {
+        bottom: 11%;
+        right: 26px;
+    }
+
+    .homeSect{
+        margin-top: 100vh !important;
+        width: 100% !important;
+        padding: 0 16px !important;
+        border-radius: 0 0 24px 24px;
+    }
+    .bot-title{padding: 60% 11% 20% 11% !important;}
+    .bot-title > h1{margin-bottom: 32px !important;}
+
+
+
+    .about > .detail-index {display: inline !important;}
+    .about > .detail-index > .doIt{margin-bottom: 56px;}
+
+    .about > .detail-index > .tell-aboutMe{padding-bottom: 25% !important;}
+
+    /* Google */
+    .modal-content {
+        top: -5%;
+        width: 90%;
+        height: 40%;
+    }
+    .text-modalCont > p{padding: 0 26px;}
+    .google  h1{font-size: 26px;}
+    .sub-menu{
+        position: fixed;
+        left: 0;
+        bottom: 6%; 
+        transform: translate(-50px, -50px);
+        background-color: rgba(251, 251, 254, 0.86);
+        backdrop-filter: blur(6px);
+        width: 100vw;
+        height: auto;
+        border-radius: 32px; 
+        column-count: 2;
+    }
+    .sub-menu > ul{
+        position: relative;
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1%; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center;
+    }
+    .sub-menu > ul > li{margin: 0 16px; text-align: center; padding: 10px 16px; display: flex; align-items: center;}
+
+    .top-bar{width: 100%; height: 100vh; position: relative;}
+    .top-bar-area{
+        width: 100%; 
+        height: 50%; 
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -65%);
+    }
+    
+    #section1, #section2 {padding: 0 16px; position: relative;}
+    .problem > .inner{width: 100%;}
+    .bubble-groups > li{width: 100%;}
+    .bubble{
+        display: inline-block;
+        width: 100% !important;
+    }
+    .bubble > p{padding: 3% 5%;}
+
+    .show-nowCalendar > p {font-size: 14px;}
+
+    #section2 > .inner > .show-proCalendar-answerAsisstant > li:nth-child(n+2){left: 0;}
+    .show-proCalendar-answerAsisstant > li{padding: 1% 5%;}
+    .show-proCalendar-answerAsisstant > .nowpro01 {
+        position: relative;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+    .nowpro01 > img {position: absolute; bottom: 60px; left: 0;}
+
+    .nowpro03{column-count: 2;}
+    .brand-font{display: flex; flex-direction: column; flex-wrap: wrap;}
+    .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont:nth-child(odd){margin-top: 32px;}
+    .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont > .otherBrand-inner{padding: 16px 1%;}
+
+    #section3 > .inner > .layout-topTitle,
+    #section4 > .inner > .layout-topTitle {padding: 5rem 16px 2rem 16px;}
+
+    .develop-layoutImg {padding: 0 16px; width: 100%; height: auto;}
+    .develop-layoutImg > .devel-imgGruop{width: 100%; display: inline-block;}
+    .develop-layoutImg > .devel-imgGruop > .video-group {width: 100%;}
+    .develop-layoutImg > .devel-imgGruop > .video-group > video {width: 100%;}
+    .develop-layoutImg > .devel-imgGruop > .video-group > video:first-child{margin-bottom: 2rem;}
+
+    .flow-analysisInner{padding: 0 16px;}
+    .what-calendar-serviceNow{position: relative; width: 100%;}
+    .what-calendar-serviceNow > .lendar-service-group{
+        text-align: left;
+        width: 100%; 
+        align-items: center;
+    }
+    .what-calendar-serviceNow > .lendar-service-group > li.service-item{   
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        gap: 2rem;
+        text-align: left;
+        margin-bottom: 3rem;      
+        -moz-columns: 2;
+        -webkit-columns: 2;
+        columns: 2;
+    }
+    .what-calendar-serviceNow > .lendar-service-group > li.service-item > div{
+        width: 100%;
+        position: relative; 
+        right: 0%;
+    } 
+    .calendar-checkLayout{padding: 2rem 0 1rem 0;}
+    .calendar-serch-chcek{padding: 0 0 3rem 0;}
+
+    .end-analysis{padding-bottom: 3rem;}
+
+    #section5{padding: 0 16px;}
+    .in-updata-group{border-left: none;}
+
+    #section6 > .visual-sec02-popup > .title > p{padding: 0 3rem;}
+    .visual-sec02-popup > .title > img{width: 100%; margin-top: 2rem;}
+    .motion-service-vlsual{width: 100%;}
+    .menuBar-imgGroup > video,
+    .menuBar-imgGroup > .direct-menuBar > video {width: 100%;}
+    .motion-service-vlsual > .about-new-service{margin-left: 0;}
+
+    /* Somethm///////////////////////// */
+    .some-sec{width: 100%; overflow: hidden; position: relative;}
+    .some-sec > .conts { margin: 0 auto; text-align: center;}
+
+    .some-sec > .con01,
+    .some-sec > .con02,
+    .some-sec > .con03,
+    .some-sec > .con04,
+    .some-sec > .con05,
+    .some-sec > .con06{padding: 0 16px;}
+
+    .some-sec > .con01{text-align: center; height: 640px; background: url("../img/some-01.png") no-repeat center bottom;}
+    .some-sec > .con02{text-align: center; height: 983px; background: url("../img/some-02.png") no-repeat center top;}
+    .some-sec > .con03{text-align: center; height: 4113px; background: url("../img/some-03.png") no-repeat center bottom 40px;}
+    .some-sec > .con04{text-align: center; height: 3964px; background: url("../img/some-04.png") no-repeat center bottom 40px;}
+    .some-sec > .con05{text-align: center; height: 991px; background: url("../img/some-05.png") no-repeat center bottom 40px;}
+    .some-sec > .con06{text-align: center; height: 815px; background: url("../img/some-06.png") no-repeat center bottom 40px;}
+    
+    .some-sec > .con07{
+        width: 100vw;
+        height: 1053px; 
+        text-align: center; 
+        background: url("../img/some-07bg.png") no-repeat; 
+        background-size: cover;
+    }
+    .some-sec > .con07 > .in-con{
+        position: relative;
+        top: 84px;
+        height: 909px; 
+        text-align: center; 
+        background: url("../img/some-07.png") no-repeat center;
+    }
+
+    .some08{position: relative; bottom: 0;}
+    .some-sec > .con08{
+        /* border: 10px solid red; */
+        width: 100%;
+        height: auto;
+        padding: 20rem 0; 
+        background: url("../img/some-08.png") no-repeat left 16px top 84px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        overflow: hidden;
+        position: relative;
+    }
+
+    .img-vidoe-group{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: -3%;
+        margin: 20% 0;
+    }
+    .some-sec > .con08 > .bot-img{
+        margin-top: 10%;
+        position: absolute;
+        bottom: 30px;
+        text-align: center;
+        width: 100vw;
+        height: 300px;
+        background: url("../img/some-08bg.png") no-repeat center;
+    }
+    .update-group > .up-item{margin: 3.5rem 0 !important;}
+    .update-group > .up-item::before{display: none !important;}
+    .in-updata-group{margin-top: 16px;}
+    .in-updata-group > li{padding: 0 !important;}
+    .in-updata-group > li > span{margin-left: 2rem; line-height: 2rem;}
+
+    #section6{padding: 0 16px;}
+
+
+}
+
 @media screen and (min-width: 1080px) and (max-width: 3073px){
     .body{min-width: 1000px;}
 
@@ -312,250 +557,6 @@
     .custom-cont{width: 86%;}
 
     .fontStyle-imgGroup > img{right: -16px;}
-
-
-}
-
-@media screen and (min-width: 360px) and (max-width: 812px){ 
-    #main-menu {display: none !important;}
-    .bottom{
-        z-index: 101;
-
-        width: 100%;
-        height: auto;
-        padding: 3% 1%;
-        position: fixed;
-        bottom: 0;
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        border-radius: 12px 12px 0 0;
-        background-color: white;
-
-        box-shadow: 0 0 24px rgba(0, 0, 0, .16);
-    }
-    .bottom > .bottom-inner{display: flex; align-items: center; justify-content: center;}
-    .bottom > .bottom-inner > a, 
-    #bottommainMenu > .bot-main-project > .bot-mainbtns{color: #151515 !important; font-size: 17px !important;}
-    #bottommainMenu > .bot-main-project{float: left; padding: 20px 0 20px 20px; cursor: pointer;}
-    
-    .body{width: 100%;}
-
-    #scrollToTopButton {
-        bottom: 11%;
-        right: 26px;
-    }
-
-    .homeSect{
-        margin-top: 100vh !important;
-        width: 100% !important;
-        padding: 0 16px !important;
-        border-radius: 0 0 24px 24px;
-    }
-    .bot-title{padding: 60% 11% 20% 11% !important;}
-    .bot-title > h1{margin-bottom: 32px !important;}
-
-
-
-    .about > .detail-index {display: inline !important;}
-    .about > .detail-index > .doIt{margin-bottom: 56px;}
-
-    .about > .detail-index > .tell-aboutMe{padding-bottom: 25% !important;}
-
-    /* Google */
-    .modal-content {
-        top: -5%;
-        width: 90%;
-        height: 40%;
-    }
-    .text-modalCont > p{padding: 0 26px;}
-    .google  h1{font-size: 26px;}
-    .sub-menu{
-        transform: translate(-50%, -50%);
-        left: 50%;
-        bottom: 6%; 
-        background-color: rgba(251, 251, 254, 0.86);
-        backdrop-filter: blur(6px);
-        width: 92%;
-        height: auto;
-        border-radius: 32px; 
-        column-count: 2;
-    }
-    .sub-menu > ul{
-        position: relative;
-        width: 100%;
-        display: flex; 
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding: 1%; 
-        align-items: center; 
-        justify-content: center; 
-        text-align: center;
-    }
-    .sub-menu > ul > li{margin: 0 16px; text-align: center; padding: 10px 16px; display: flex; align-items: center;}
-
-    .top-bar{width: 100%; height: 100vh; position: relative;}
-    .top-bar-area{
-        width: 100%; 
-        height: 50%; 
-        position: absolute; 
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -65%);
-    }
-    
-    #section1, #section2 {padding: 0 16px; position: relative;}
-    .problem > .inner{width: 100%;}
-    .bubble-groups > li{width: 100%;}
-    .bubble{
-        display: inline-block;
-        width: 100% !important;
-    }
-    .bubble > p{padding: 3% 5%;}
-
-    .show-nowCalendar > p {font-size: 14px;}
-
-    #section2 > .inner > .show-proCalendar-answerAsisstant > li:nth-child(n+2){left: 0;}
-    .show-proCalendar-answerAsisstant > li{padding: 1% 5%;}
-    .show-proCalendar-answerAsisstant > .nowpro01 {
-        position: relative;
-        margin-top: 32px;
-        margin-left: 0;
-    }
-    .nowpro01 > img {position: absolute; bottom: 60px; left: 0;}
-
-    .nowpro03{column-count: 2;}
-    .brand-font{display: flex; flex-direction: column; flex-wrap: wrap;}
-    .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont:nth-child(odd){margin-top: 32px;}
-    .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont{
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
-    .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont > .otherBrand-inner{padding: 16px 1%;}
-
-    #section3 > .inner > .layout-topTitle,
-    #section4 > .inner > .layout-topTitle {padding: 5rem 16px 2rem 16px;}
-
-    .develop-layoutImg {padding: 0 16px; width: 100%; height: auto;}
-    .develop-layoutImg > .devel-imgGruop{width: 100%; display: inline-block;}
-    .develop-layoutImg > .devel-imgGruop > .video-group {width: 100%;}
-    .develop-layoutImg > .devel-imgGruop > .video-group > video {width: 100%;}
-    .develop-layoutImg > .devel-imgGruop > .video-group > video:first-child{margin-bottom: 2rem;}
-
-    .flow-analysisInner{padding: 0 16px;}
-    .what-calendar-serviceNow{position: relative; width: 100%;}
-    .what-calendar-serviceNow > .lendar-service-group{
-        text-align: left;
-        width: 100%; 
-        align-items: center;
-    }
-    .what-calendar-serviceNow > .lendar-service-group > li.service-item{   
-        display: flex;
-        align-items: center;
-        justify-content:flex-start;
-        gap: 2rem;
-        text-align: left;
-        margin-bottom: 3rem;      
-        -moz-columns: 2;
-        -webkit-columns: 2;
-        columns: 2;
-    }
-    .what-calendar-serviceNow > .lendar-service-group > li.service-item > div{
-        width: 100%;
-        position: relative; 
-        right: 0%;
-    } 
-    .calendar-checkLayout{padding: 2rem 0 1rem 0;}
-    .calendar-serch-chcek{padding: 0 0 3rem 0;}
-
-    .end-analysis{padding-bottom: 3rem;}
-
-    #section5{padding: 0 16px;}
-    .in-updata-group{border-left: none;}
-
-    #section6 > .visual-sec02-popup > .title > p{padding: 0 3rem;}
-    .visual-sec02-popup > .title > img{width: 100%; margin-top: 2rem;}
-    .motion-service-vlsual{width: 100%;}
-    .menuBar-imgGroup > video,
-    .menuBar-imgGroup > .direct-menuBar > video {width: 100%;}
-    .motion-service-vlsual > .about-new-service{margin-left: 0;}
-
-    /* Somethm///////////////////////// */
-    .some-sec{width: 100%; overflow: hidden; position: relative;}
-    .some-sec > .conts { margin: 0 auto; text-align: center;}
-
-    .some-sec > .con01,
-    .some-sec > .con02,
-    .some-sec > .con03,
-    .some-sec > .con04,
-    .some-sec > .con05,
-    .some-sec > .con06{padding: 0 16px;}
-
-    .some-sec > .con01{text-align: center; height: 640px; background: url("../img/some-01.png") no-repeat center bottom;}
-    .some-sec > .con02{text-align: center; height: 983px; background: url("../img/some-02.png") no-repeat center top;}
-    .some-sec > .con03{text-align: center; height: 4113px; background: url("../img/some-03.png") no-repeat center bottom 40px;}
-    .some-sec > .con04{text-align: center; height: 3964px; background: url("../img/some-04.png") no-repeat center bottom 40px;}
-    .some-sec > .con05{text-align: center; height: 991px; background: url("../img/some-05.png") no-repeat center bottom 40px;}
-    .some-sec > .con06{text-align: center; height: 815px; background: url("../img/some-06.png") no-repeat center bottom 40px;}
-    
-    .some-sec > .con07{
-        width: 100vw;
-        height: 1053px; 
-        text-align: center; 
-        background: url("../img/some-07bg.png") no-repeat; 
-        background-size: cover;
-    }
-    .some-sec > .con07 > .in-con{
-        position: relative;
-        top: 84px;
-        height: 909px; 
-        text-align: center; 
-        background: url("../img/some-07.png") no-repeat center;
-    }
-
-    .some08{position: relative; bottom: 0;}
-    .some-sec > .con08{
-        /* border: 10px solid red; */
-        width: 100%;
-        height: auto;
-        padding: 20rem 0; 
-        background: url("../img/some-08.png") no-repeat left 16px top 84px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        overflow: hidden;
-        position: relative;
-    }
-
-    .img-vidoe-group{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        position: relative;
-        top: -3%;
-        margin: 20% 0;
-    }
-    .some-sec > .con08 > .bot-img{
-        margin-top: 10%;
-        position: absolute;
-        bottom: 30px;
-        text-align: center;
-        width: 100vw;
-        height: 300px;
-        background: url("../img/some-08bg.png") no-repeat center;
-    }
-    .update-group > .up-item{margin: 3.5rem 0 !important;}
-    .update-group > .up-item::before{display: none !important;}
-    .in-updata-group{margin-top: 16px;}
-    .in-updata-group > li{padding: 0 !important;}
-    .in-updata-group > li > span{margin-left: 2rem; line-height: 2rem;}
-
-    #section6{padding: 0 16px;}
 
 
 }
