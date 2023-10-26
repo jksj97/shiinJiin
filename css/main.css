@@ -94,7 +94,7 @@ section{position: relative; clear: both;}
     cursor: pointer;
     display: none;
 
-    position: fixed;
+    position: relative;
     /* style */
     background-color: #0080FF;
     color: #fff;
@@ -242,10 +242,8 @@ footer{width: 100%;}
 }
 .footer-inner > .google-fendes{
     position: absolute;
-    width: 24.625rem; 
-    height: 19.5rem;
 
-    background: url("../img/daS.svg") no-repeat;
+    background: url("../img/daS.svg") no-repeat center left -25px;
     background-size: cover;
     display: inline-block;
 }

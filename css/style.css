@@ -49,8 +49,10 @@
 .top-bar-area{margin: auto; display: block; text-align: center;}
 .google-assistant{padding: 3rem 0;}
 
-.google-speechBubble{position: relative; top: 1rem; display: inline-block;}
-.google-speechBubble > img{position:absolute; left: -2rem; top: -2.5rem; width: 22.8rem; height: 6rem;}
+.google-speechBubble{position: relative; top: 1rem;}
+.google-speechBubble > img{
+    position:absolute; 
+}
 
 
 /* 02 problems:업데이트 부탁할게! */
@@ -279,7 +281,7 @@
 .visual-sec02-popup,
 .visual-sec05-counting-date,
 .visual-sec03-service-menubar{margin-bottom: 14rem;}
-.visual-sec04-calendar-bookmark{width: 100%; background-color:#F8F9FA; display: flex; align-items: center; justify-content: space-between ; margin-bottom: 14rem;}
+.visual-sec04-calendar-bookmark{width: 100%; background-color:#F8F9FA; margin-bottom: 14rem;}
 
 /* 07-2  modal*/
 .visual-sec02-popup > .title > p > a#myBtn{text-decoration: underline; cursor: pointer;}
@@ -303,14 +305,12 @@
 .motion-service-vlsual > .about-new-service > p{color: #70757A;}
 
 .visual-sec03-service-menubar > .menuBar-imgGroup > video{margin: 4rem 0 1.9rem 0;}
-.visual-sec03-service-menubar > .menuBar-imgGroup > .list-page {width: 1360px; height: 802px; display: flex; overflow: hidden; border: 1px solid red;}
+.visual-sec03-service-menubar > .menuBar-imgGroup > .list-page {width: 1360px; height: 802px; display: flex; overflow: hidden;}
 
 /* 07-4  visual-sec04-calendar-bookmark*/
-.visual-sec04-calendar-bookmark {padding: 5rem 18rem;}
-.visual-sec04-calendar-bookmark > .bookMark-inner{margin: auto; display: flex; gap: 12rem; align-items: center; justify-content: space-between;}
-.visual-sec04-calendar-bookmark > .bookMark-inner > .title{text-align: left; padding-bottom: 10rem;}
+.visual-sec04-calendar-bookmark > .bookMark-inner{margin: auto;}
+.visual-sec04-calendar-bookmark > .bookMark-inner > .title{text-align: left;}
 .visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{color: #70757A;}
-.visual-sec04-calendar-bookmark > .bookMark-inner > img{width: 28.125rem; height: 32.5rem;}
 
 
 /* 07-5  visual-sec05-counting-date*/
@@ -332,10 +332,10 @@
 .visual-sec06-laptop > h1{font-size: 2rem; margin-bottom: 4rem;}
 
 .counting-typeText{display: inline-block; margin-left: 1rem;}
-.counting-typeText:nth-child(even){padding: .8% 2%; border-radius: 5rem;}
+.counting-typeText:nth-child(even){border-radius: 5rem;}
 .counting-typeText:nth-child(even) > span{font-size: 1.5rem;}
 
-.counting-typeText:nth-child(odd){padding: .5% 1.5%; border-radius: 3rem;}
+.counting-typeText:nth-child(odd){border-radius: 3rem;}
 .counting-typeText:nth-child(odd) > span{font-size: 1rem;}
 
 .counting-typeText:nth-child(1){background-color: #FFD4D1;}
@@ -345,7 +345,7 @@
 .counting-typeText:nth-child(2) > span{color: #0080FF;}
 .counting-typeText:nth-child(3) > span{color: #118A31;}
 
-.visual-sec05-counting-date > .bot-visual-img02{width: 60%; height: auto; margin: 36px auto; border-radius: 24px; border: none; box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);}
+.visual-sec05-counting-date > .bot-visual-img02{height: auto; border: none; box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);}
 .visual-sec05-counting-date > .bot-visual-img02 > img {width: 100%; height: auto;}
 
 
