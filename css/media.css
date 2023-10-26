@@ -76,7 +76,7 @@
     .modal-content {
         top: -5%;
         width: 90%;
-        height: 40%;
+        height: 36%;
     }
     .text-modalCont > p{padding: 0 26px;}
     .google  h1{font-size: 26px;}
@@ -113,11 +113,12 @@
     .bubble{
         display: inline-block;
         width: 100% !important;
+        border-radius: 1.2rem;
     }
     .bubble > p{padding: 3% 5%;}
-
+    
     .show-nowCalendar > p {font-size: 14px;}
-
+    
     #section2 > .inner > .show-proCalendar-answerAsisstant > li:nth-child(n+2){left: 0;}
     .show-proCalendar-answerAsisstant > li{padding: 1% 5%;}
     .show-proCalendar-answerAsisstant > .nowpro01 {
@@ -125,8 +126,8 @@
         margin-top: 32px;
         margin-left: 0;
     }
-    .nowpro01 > img {position: absolute; bottom: 60px; left: 0;}
-
+    .nowpro01 > img {position: absolute; bottom: 80px; left: 0;}
+    
     .nowpro03{column-count: 2;}
     .brand-font{display: flex; flex-direction: column; flex-wrap: wrap;}
     .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont:nth-child(odd){margin-top: 32px;}
@@ -136,7 +137,9 @@
         height: auto;
     }
     .show-proCalendar-answerAsisstant > .nowpro03 > .brand-font > li.other-siteFont > .otherBrand-inner{padding: 16px 1%;}
-
+    .show-proCalendar-answerAsisstant li:last-child{margin-bottom: 0rem;}
+    .btnSize-otherBrand{padding: 16px 4px 0 0;}
+    
     #section3 > .inner > .layout-topTitle,
     #section4 > .inner > .layout-topTitle {padding: 5rem 16px 2rem 16px;}
 
@@ -147,7 +150,11 @@
     .develop-layoutImg > .devel-imgGruop > .video-group > video:first-child{margin-bottom: 2rem;}
 
     .flow-analysisInner{padding: 0 16px;}
+    .what-user-calendarPurpos > .search-pos-group {margin-left: 0;}
     .what-calendar-serviceNow{position: relative; width: 100%;}
+    .title-search-user{padding: 1rem 1.5rem; display: flex; gap: 2.2rem; align-items: center; justify-content: space-between;}
+
+
     .what-calendar-serviceNow > .lendar-service-group{
         text-align: left;
         width: 100%; 
@@ -183,7 +190,9 @@
     .menuBar-imgGroup > video,
     .menuBar-imgGroup > .direct-menuBar > video {width: 100%;}
     .motion-service-vlsual > .about-new-service{margin-left: 0;}
-
+    
+    .visual-sec03-service-menubar{padding: 0 16px;}
+    
     .visual-sec04-calendar-bookmark{padding: 4rem 16px;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > .title{margin-bottom: 4rem;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > img{width: 100%;}
@@ -340,6 +349,7 @@
         display: flex;
         align-items: center;
         padding: 1% .5%;
+        border-radius: 2.5rem;
     }
 
     .bubble-groups > li > p,
@@ -360,6 +370,9 @@
         height: 11rem;
         margin: 2rem 1rem 4rem 0;
     }
+    .btnSize-otherBrand{
+        padding: 1% 3rem;
+    }
     
     .btnSize-otherBrand{left: 120px;}
 
@@ -371,6 +384,9 @@
     }
 
     .end-analysis{padding-bottom: 5rem;}
+    .what-user-calendarPurpos > .search-pos-group{margin-left: 3.2rem;}
+    .title-search-user > p{padding: 1.5rem 3.2rem;}
+    .title-search-user > img{padding-right: 3.2rem;}
 
     .what-calendar-serviceNow > .lendar-service-group{display: flex; align-items: center;}
     .what-calendar-serviceNow > .lendar-service-group > li{

@@ -143,6 +143,7 @@
     color: white;
 }
 .show-proCalendar-answerAsisstant .nowpro04::before{
+    z-index: -1;
     content: " ";
     background: url("../img/bubble-tail-blue.svg") no-repeat;
     background-size: cover;
@@ -159,9 +160,8 @@
     top: 0;
     color: #B1B5BD;
     margin-bottom: 6rem;
-    padding: 1% 3rem;
 }
-.btnSize-otherBrand > p{margin-bottom: 0.4rem;}
+/* .btnSize-otherBrand > p{margin-bottom: 0.4rem;} */
 
 
 /* 04 calendar-layout: 캘린더 디벨롭 전 후 비교*/
@@ -179,11 +179,10 @@
 .what-calendar-serviceNow,
 .what-google-noService{margin-bottom: 6rem; width: 100%; position: relative;}
 
-.title-search-user{display: flex; align-items: center; justify-content: space-between; border: 1px solid #70757A; border-radius: 10rem;}
-.title-search-user > p{width: 100%; padding: 1.5rem 3.2rem;}
-.title-search-user > img{padding-right: 3.2rem;}
+.title-search-user{display: flex; align-items: center; justify-content: space-between; border: 1px solid #a8adb1; border-radius: 10rem;}
+.title-search-user > p{width: 100%;}
 
-.what-user-calendarPurpos > .search-pos-group{margin-top: 2rem; margin-left: 3.2rem;}
+.what-user-calendarPurpos > .search-pos-group{margin-top: 2rem;}
 .what-user-calendarPurpos > .search-pos-group > li{padding-bottom: 2%;}
 
 
@@ -310,7 +309,7 @@
 /* 07-4  visual-sec04-calendar-bookmark*/
 .visual-sec04-calendar-bookmark > .bookMark-inner{margin: auto;}
 .visual-sec04-calendar-bookmark > .bookMark-inner > .title{text-align: left;}
-.visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{color: #70757A;}
+.visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{color: #70757A; margin-top: 1rem;}
 
 
 /* 07-5  visual-sec05-counting-date*/
