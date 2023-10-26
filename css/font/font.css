@@ -20,8 +20,17 @@ a{color: #70757A;}
 .brand-font > .other-siteFont > .otherBrand-inner > .other-font-size > p,
 .pro-asisstant-answer > .asisstant-speech > p{font-size: 1rem;}
 
+@media screen and (min-width: 360px) and (max-width: 812px){
 
-.layout-topTitle{text-align: center; padding: 7.8rem 0 4.6rem 0;}
+    .layout-topTitle{text-align: left; padding: 7.8rem 16px 5.6rem 16px;}
+
+}
+@media screen and (min-width: 1080px) and (max-width: 3073px){
+    
+    .layout-topTitle{text-align: center; padding: 7.8rem 0 4.6rem 0;}
+
+}
+
 .layout-topTitle > h1{padding-bottom: 0.8rem;}
 
 .checek-tail-inner span,

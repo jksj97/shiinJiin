@@ -14,7 +14,7 @@ ul, ol{list-style: none;}
 
 #main-menu{
     position: relative;
-    z-index: 100;
+    z-index: 99;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@ ul, ol{list-style: none;}
 
 #main-menu .head-inner{width: 100%; display: flex; align-items: center; justify-content: space-between;}
 #main-menu .head-inner > a {font-size: 0.778rem;}
-.sub-menu > ul > li > a{font-size: 0.778rem; padding-bottom: 8px;}
+.sub-menu > ul > li > a{font-size: 0.778rem; padding: 8px 0;}
 
 .homeBtn{color: #70757A;}
 .whiteBtn::before,
@@ -56,7 +56,7 @@ ul, ol{list-style: none;}
 .sub-menu{
     position: fixed; 
     transition: all 0.5s ease-in-out; 
-    z-index: 103;
+    z-index: 98;
 }
 .sub-menu > ul > li > a{color: #B1B5BD; font-size: 0.8rem;}
 
@@ -89,11 +89,11 @@ section{position: relative; clear: both;}
 
 
 #scrollToTopButton {
-    z-index: 98;
+    position: fixed;
+    z-index: 100;
     cursor: pointer;
     display: none;
 
-    position: relative;
     /* style */
     background-color: #0080FF;
     color: #fff;
@@ -110,7 +110,7 @@ section{position: relative; clear: both;}
     left: 0;
     padding: 20px;
     border-radius: 50%;
-    /* transition: transform 0.3s ease; */
+    transition: transform 0.3s ease;
 }
 #scrollToTopButton > img:hover{transform:translateY(-6px);}
   
@@ -132,7 +132,7 @@ section{position: relative; clear: both;}
 
 /* modal ////////////*/
 .modal {
-    z-index: 104;
+    z-index: 101;
     display: none;
     position: fixed;
     left: 0;

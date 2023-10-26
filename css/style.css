@@ -182,8 +182,7 @@
 .title-search-user{display: flex; align-items: center; justify-content: space-between; border: 1px solid #a8adb1; border-radius: 10rem;}
 .title-search-user > p{width: 100%;}
 
-.what-user-calendarPurpos > .search-pos-group{margin-top: 2rem;}
-.what-user-calendarPurpos > .search-pos-group > li{padding-bottom: 2%;}
+/* .what-user-calendarPurpos > .search-pos-group > li{padding-bottom: 2%;} */
 
 
 .what-calendar-serviceNow > p{margin-bottom: 2rem;}
@@ -229,7 +228,7 @@
 .calendar-serch-chcek > img{width: 100%; height: 100%;}
 
 .needs-text-group > .main-needs{margin-bottom: 2rem;}
-.needs-text-group > .main-needs > h2{font-weight: 500; padding-top: 0.2rem;}
+.needs-text-group > .main-needs > h2{font-weight: 500; padding-top: 0.5rem;}
 
 .analysis-needs{list-style-position: outside; padding-left: 1.2rem;}
 .analysis-needs > li{list-style: disc; color: #70757A; line-height: 1.6rem; padding-bottom: 1rem;}
@@ -309,7 +308,7 @@
 /* 07-4  visual-sec04-calendar-bookmark*/
 .visual-sec04-calendar-bookmark > .bookMark-inner{margin: auto;}
 .visual-sec04-calendar-bookmark > .bookMark-inner > .title{text-align: left;}
-.visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{color: #70757A; margin-top: 1rem;}
+.visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{color: #70757A;}
 
 
 /* 07-5  visual-sec05-counting-date*/
