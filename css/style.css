@@ -347,7 +347,7 @@
 .counting-typeText:nth-child(3) > span{color: #118A31;}
 
 .visual-sec05-counting-date > .bot-visual-img02{width: 60%; height: auto; margin: 36px auto; border-radius: 24px; border: none; box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);}
-.visual-sec05-counting-date > .bot-visual-img02 > img {width: 100%; height: auto;}
+.visual-sec05-counting-date > .bot-visual-img02 > video {width: 100%; height: auto;}
 
 
 

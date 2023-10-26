@@ -80,13 +80,13 @@
     .in-updata-group{margin: 1rem 0; border-left: 3px dashed #E4E4E4;}
     .in-updata-group > li > span{margin-left: 3rem; position: relative;}
 
-    .visual-sec02-popup > .title > img{width: 60%;}
+    .visual-sec02-popup > .title > img{width: 60%; margin-top: 3rem;}
     .motion-service-vlsual{width: 60%;}
     .motion-service-vlsual > .about-new-service{margin-left: 2rem;}
 
 
-    footer{margin-top: 10rem;}
-    .google-foot{background-color: #F8F9FA; padding: 4% 0 2% 0;}
+    footer{padding: 5rem;}
+    .google-foot{background-color: #F8F9FA; margin-top: 12rem; padding: 5% 0 2% 0;}
     .footer-inner > .google-fendes{
         margin-bottom: 2rem;
         bottom: -60%;

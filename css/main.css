@@ -128,9 +128,9 @@ header .head-inner > a {font-size: 0.778rem;}
 
 /* modal ////////////*/
 .modal {
+    z-index: 101;
     display: none;
     position: fixed;
-    z-index: 100;
     left: 0;
     top: 0;
     width: 100%;
