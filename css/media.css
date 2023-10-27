@@ -33,7 +33,7 @@
         background-color: rgba(251, 251, 254, 0.86);
         backdrop-filter: blur(6px);
         width: 92vw;
-        height: auto;
+        height: 164px;
         border-radius: 32px; 
     }
     .sub-menu > ul{
@@ -42,7 +42,7 @@
         display: inline-block; 
         padding: 1%; 
         align-items: center; 
-        justify-content: center; 
+        justify-content: center;  
         text-align: center;
         column-count: 2;
     }
