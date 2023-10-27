@@ -212,7 +212,7 @@
     .visual-sec05-counting-date{padding: 0 16px;}
     .visual-sec05-counting-date > .title{display: flex; flex-direction: column;}
     .visual-sec05-counting-date > .title > h1{padding: 0 3rem;}
-    #countdown{border: 1px solid red; margin: 0 auto; width: 328px; font-size: 3.5rem; margin-top: 2rem;}
+    #countdown{margin: 0 auto; width: 328px; font-size: 3.5rem; margin-top: 2rem;}
     .visual-sec05-counting-date > .title > span:last-child{font-size: 1rem; margin-top: 1rem; color: #70757A;}
 
     .counting-typeText:nth-child(odd){padding: 1% 4%;}
