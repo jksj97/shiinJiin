@@ -10,7 +10,7 @@ ul, ol{list-style: none;}
 .blue{color: #0080FF;}
 
 /* header ////////////*/
-.bottom{display: none;}
+.bottom{display: none; height: 86px;}
 
 #main-menu{
     position: relative;
@@ -242,7 +242,7 @@ footer{width: 100%;}
 .footer-inner > .google-fendes{
     position: absolute;
 
-    background: url("../img/daS.svg") no-repeat center left -25px;
+    background: url("../img/google-frends.svg") no-repeat center;
     background-size: cover;
     display: inline-block;
 }

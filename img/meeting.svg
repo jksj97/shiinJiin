@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d9ecff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #cee6ff;
+      }
+
+      .cls-4 {
+        fill: #2cb450;
+      }
+
+      .cls-5 {
+        fill: #151515;
+      }
+
+      .cls-11, .cls-13, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #151515;
+        stroke-width: 2px;
+      }
+
+      .cls-13, .cls-6, .cls-8 {
+        stroke-linecap: round;
+      }
+
+      .cls-7, .cls-8 {
+        stroke: #2cb450;
+      }
+
+      .cls-11, .cls-13, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 3px;
+      }
+
+      .cls-9 {
+        stroke: #fec116;
+      }
+
+      .cls-10 {
+        fill: #fec116;
+      }
+
+      .cls-11, .cls-13 {
+        stroke: #ea4335;
+      }
+
+      .cls-12 {
+        fill: #ea4335;
+      }
+
+      .cls-14 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="타원_155" data-name="타원 155" class="cls-1" cx="57" cy="57" r="57" transform="translate(5383 6157)"/>
+    </clipPath>
+  </defs>
+  <g id="meeting" transform="translate(-4982 -6157)">
+    <circle id="타원_141" data-name="타원 141" class="cls-1" cx="57" cy="57" r="57" transform="translate(4982 6157)"/>
+    <g id="마스크_그룹_22" data-name="마스크 그룹 22" class="cls-2" transform="translate(-401)">
+      <g id="그룹_2243" data-name="그룹 2243" transform="translate(-2 2)">
+        <g id="그룹_2230" data-name="그룹 2230" transform="translate(5449.723 6205.343)">
+          <ellipse id="타원_145" data-name="타원 145" class="cls-3" cx="18.096" cy="5.254" rx="18.096" ry="5.254" transform="translate(2.489 84.286)"/>
+          <g id="그룹_2229" data-name="그룹 2229" transform="matrix(0.998, 0.07, -0.07, 0.998, 6.386, 0)">
+            <rect id="사각형_2466" data-name="사각형 2466" class="cls-4" width="32.241" height="56.422" rx="4" transform="translate(12.9 0) rotate(7)"/>
+            <g id="그룹_2226" data-name="그룹 2226" transform="translate(22.022 6.045)">
+              <g id="그룹_2225" data-name="그룹 2225" transform="translate(0.943 0)">
+                <ellipse id="타원_146" data-name="타원 146" class="cls-5" cx="1.504" cy="1.504" rx="1.504" ry="1.504" transform="translate(0 0)"/>
+                <ellipse id="타원_147" data-name="타원 147" class="cls-5" cx="1.504" cy="1.504" rx="1.504" ry="1.504" transform="translate(7.821 0.601)"/>
+              </g>
+              <path id="패스_2244" data-name="패스 2244" class="cls-6" d="M0,0C7.863,2.107,12.716.817,12.716.817" transform="translate(0 5.166)"/>
+            </g>
+            <g id="그룹_2227" data-name="그룹 2227" transform="translate(3.691 52.056)">
+              <line id="선_297" data-name="선 297" class="cls-7" x1="6.527" y2="35.158" transform="translate(8.166 0)"/>
+              <path id="패스_2245" data-name="패스 2245" class="cls-4" d="M9.3,5.033s-3-7.549-8.119-4.155S9.3,5.033,9.3,5.033Z" transform="translate(0.7 29.178) rotate(8)"/>
+            </g>
+            <g id="그룹_2228" data-name="그룹 2228" transform="translate(14.676 56.086)">
+              <line id="선_298" data-name="선 298" class="cls-7" x1="6.527" y2="35.158" transform="translate(8.166 0)"/>
+              <path id="패스_2246" data-name="패스 2246" class="cls-4" d="M9.3,5.033s-3-7.549-8.119-4.155S9.3,5.033,9.3,5.033Z" transform="translate(0.7 29.178) rotate(8)"/>
+            </g>
+            <path id="패스_2247" data-name="패스 2247" class="cls-8" d="M9.549,13.021S7.379,4.63,0,0" transform="matrix(0.978, -0.208, 0.208, 0.978, 0, 13.8)"/>
+            <path id="패스_2248" data-name="패스 2248" class="cls-8" d="M9.549,13.021S7.379,4.63,0,0" transform="matrix(0.978, -0.208, 0.208, 0.978, 0, 23.875)"/>
+          </g>
+        </g>
+        <g id="그룹_2237" data-name="그룹 2237" transform="translate(5373.965 6209.718)">
+          <ellipse id="타원_148" data-name="타원 148" class="cls-3" cx="23.24" cy="6.338" rx="23.24" ry="6.338" transform="translate(15.651 83.092) rotate(-7)"/>
+          <g id="그룹_2236" data-name="그룹 2236" transform="translate(0 0)">
+            <g id="그룹_2231" data-name="그룹 2231" transform="translate(42.186 50.283)">
+              <line id="선_299" data-name="선 299" class="cls-9" x2="3.38" y2="33.804"/>
+              <path id="패스_2249" data-name="패스 2249" class="cls-10" d="M8508.546,5663.435s4.978-9.86,11.415-5.59S8508.546,5663.435,8508.546,5663.435Z" transform="translate(-8506.395 -5629.5)"/>
+            </g>
+            <g id="그룹_2232" data-name="그룹 2232" transform="translate(14.14 54.086)">
+              <line id="선_300" data-name="선 300" class="cls-9" x1="3.38" y2="33.804" transform="translate(12.834)"/>
+              <path id="패스_2250" data-name="패스 2250" class="cls-10" d="M12.47,6.478S7.862-3.181,1.424,1.09,12.47,6.478,12.47,6.478Z" transform="matrix(0.899, -0.438, 0.438, 0.899, 0, 33.541)"/>
+            </g>
+            <g id="그룹_2235" data-name="그룹 2235" transform="translate(0)">
+              <g id="그룹_2234" data-name="그룹 2234">
+                <g id="그룹_2233" data-name="그룹 2233" transform="matrix(0.978, 0.208, -0.208, 0.978, 21.953, 0)">
+                  <path id="패스_2251" data-name="패스 2251" class="cls-10" d="M3.1,0C5.472,0,6.655,3.318,6.039,6.425A14.735,14.735,0,0,1,3.1,12.239,15.362,15.362,0,0,1,.154,6.425C-.441,3.421.721,0,3.1,0Z" transform="matrix(0.891, -0.454, 0.454, 0.891, 3.667, 2.815)"/>
+                  <path id="패스_2252" data-name="패스 2252" class="cls-10" d="M3.1,0C5.472,0,6.655,3.318,6.039,6.425A14.735,14.735,0,0,1,3.1,12.239,15.362,15.362,0,0,1,.154,6.425C-.441,3.421.721,0,3.1,0Z" transform="translate(15.749 0.018) rotate(31)"/>
+                  <path id="패스_2253" data-name="패스 2253" class="cls-10" d="M3.1,12.239c2.375,0,3.558-3.318,2.942-6.425A14.735,14.735,0,0,0,3.1,0,15.362,15.362,0,0,0,.154,5.813C-.441,8.818.721,12.239,3.1,12.239Z" transform="matrix(-0.105, 0.995, -0.995, -0.105, 12.82, 9.423)"/>
+                </g>
+                <path id="다각형_56" data-name="다각형 56" class="cls-10" d="M29.023,2.548a2,2,0,0,1,3.344,0l26.99,41.128a2,2,0,0,1-1.672,3.1H3.7a2,2,0,0,1-1.672-3.1Z" transform="matrix(0.985, -0.174, 0.174, 0.985, 0, 13.076)"/>
+              </g>
+              <ellipse id="타원_149" data-name="타원 149" class="cls-5" cx="1.626" cy="1.626" rx="1.626" ry="1.626" transform="translate(26.972 21.908)"/>
+              <ellipse id="타원_150" data-name="타원 150" class="cls-5" cx="1.626" cy="1.626" rx="1.626" ry="1.626" transform="translate(34.514 20.282)"/>
+              <path id="패스_2254" data-name="패스 2254" class="cls-5" d="M1.988,1.2c.619-1.341,1.375-1.909,2.423.169l2.21,3.605a.632.632,0,0,1-.557.93H.632a.632.632,0,0,1-.557-.93Z" transform="matrix(-0.998, 0.07, -0.07, -0.998, 37.766, 31.052)"/>
+            </g>
+          </g>
+        </g>
+        <g id="그룹_2242" data-name="그룹 2242" transform="translate(5412.895 6226.056)">
+          <ellipse id="타원_151" data-name="타원 151" class="cls-3" cx="20.738" cy="6.021" rx="20.738" ry="6.021" transform="translate(16.751 71.091)"/>
+          <g id="그룹_2241" data-name="그룹 2241" transform="translate(0 0)">
+            <g id="그룹_2238" data-name="그룹 2238" transform="translate(43.989 46.185)">
+              <line id="선_301" data-name="선 301" class="cls-11" x2="3.079" y2="30.79"/>
+              <path id="패스_2255" data-name="패스 2255" class="cls-12" d="M8508.547,5662.841s4.533-8.982,10.4-5.092S8508.547,5662.841,8508.547,5662.841Z" transform="translate(-8506.587 -5631.931)"/>
+            </g>
+            <circle id="타원_152" data-name="타원 152" class="cls-12" cx="24.632" cy="24.632" r="24.632" transform="translate(11.408)"/>
+            <g id="그룹_2239" data-name="그룹 2239" transform="translate(26.033 6.928)">
+              <ellipse id="타원_153" data-name="타원 153" class="cls-5" cx="1.924" cy="1.924" rx="1.924" ry="1.924"/>
+              <ellipse id="타원_154" data-name="타원 154" class="cls-5" cx="1.924" cy="1.924" rx="1.924" ry="1.924" transform="translate(10.007 0.77)"/>
+              <line id="선_302" data-name="선 302" class="cls-6" y1="2.309" x2="11.546" transform="translate(3.464 6.543)"/>
+              <line id="선_303" data-name="선 303" class="cls-6" x2="0.77" y2="3.079" transform="translate(15.01 5.003)"/>
+            </g>
+            <path id="패스_2256" data-name="패스 2256" class="cls-13" d="M8662.038,5601.64s2.488-9.616,10.944-14.922" transform="translate(-8604.416 -5573.08)"/>
+            <path id="패스_2257" data-name="패스 2257" class="cls-13" d="M10.943,14.922S8.456,5.306,0,0" transform="matrix(0.978, -0.208, 0.208, 0.978, 0, 12.077)"/>
+            <g id="그룹_2240" data-name="그룹 2240" transform="translate(15.864 45.987)">
+              <line id="선_304" data-name="선 304" class="cls-11" x1="3.079" y2="30.79" transform="translate(10.555)"/>
+              <path id="패스_2258" data-name="패스 2258" class="cls-12" d="M8520.22,5662.841s-4.533-8.982-10.4-5.092S8520.22,5662.841,8520.22,5662.841Z" transform="translate(-8508.547 -5631.931)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="사각형_2467" data-name="사각형 2467" class="cls-4" width="36" height="26" rx="6" transform="translate(5023 6174)"/>
+    <g id="그룹_433" data-name="그룹 433" transform="translate(5029 6183)">
+      <path id="다각형_7" data-name="다각형 7" class="cls-14" d="M4,0,8,6H0Z" transform="translate(15) rotate(90)"/>
+    </g>
+    <path id="패스_2259" data-name="패스 2259" class="cls-4" d="M0,0,5,2.333v9.333L0,14Z" transform="translate(5018 6180.199)"/>
+  </g>
+</svg>

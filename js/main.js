@@ -161,11 +161,5 @@ updateCountdown();
 
 // 
 
-    // JavaScript로 비디오 요소 가져오기
-    var video = document.getElementById("myVideo");
 
-    // 모바일 기기에서만 자동 재생 비활성화
-    if (/Mobi/i.test(navigator.userAgent)) {
-        video.removeAttribute("autoplay");
-    }
 

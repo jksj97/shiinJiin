@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d9ecff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #2cb450;
+      }
+
+      .cls-4, .cls-6, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 22px;
+        font-family: NotoSansKR-Medium, Noto Sans KR;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        fill: #0e7329;
+      }
+
+      .cls-7 {
+        fill: #0d96ff;
+      }
+
+      .cls-10, .cls-8 {
+        font-size: 12px;
+        font-family: NotoSansKR-Regular, Noto Sans KR;
+      }
+
+      .cls-9 {
+        fill: #ffd4d1;
+      }
+
+      .cls-10 {
+        fill: #ea4335;
+      }
+
+      .cls-11 {
+        filter: url(#사각형_533-2);
+      }
+
+      .cls-12 {
+        filter: url(#사각형_533);
+      }
+    </style>
+    <filter id="사각형_533" x="18" y="19" width="42" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_533-2" x="54" y="72" width="42" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="create-schedule" transform="translate(-4982 -6019)">
+    <circle id="타원_139" data-name="타원 139" class="cls-1" cx="57" cy="57" r="57" transform="translate(4982 6019)"/>
+    <g id="그룹_2221" data-name="그룹 2221" transform="translate(4996 6037)">
+      <g id="그룹_508" data-name="그룹 508" transform="translate(14 11)">
+        <rect id="사각형_435" data-name="사각형 435" class="cls-2" width="58" height="58"/>
+        <g id="그룹_372" data-name="그룹 372" transform="translate(3.838 3.838)">
+          <g id="그룹_359" data-name="그룹 359" transform="translate(0 11.514)">
+            <path id="사각형_316" data-name="사각형 316" class="cls-3" d="M0,0H50a0,0,0,0,1,0,0V35a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z" transform="translate(0.162 -0.352)"/>
+            <text id="_31" data-name="31" class="cls-4" transform="translate(25.162 25.648)"><tspan x="-12.54" y="0">31</tspan></text>
+          </g>
+          <path id="사각형_316-2" data-name="사각형 316" class="cls-5" d="M4,0H46a4,4,0,0,1,4,4v7a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(0.162 0.162)"/>
+          <rect id="사각형_510" data-name="사각형 510" class="cls-6" width="6" height="8" transform="translate(13.162 0.162)"/>
+          <rect id="사각형_511" data-name="사각형 511" class="cls-6" width="5" height="8" transform="translate(31.162 0.162)"/>
+        </g>
+      </g>
+    </g>
+    <g id="그룹_2223" data-name="그룹 2223" transform="translate(4601 5691)">
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, 381, 328)">
+        <rect id="사각형_533-3" data-name="사각형 533" class="cls-7" width="36" height="20" rx="10" transform="translate(21 20)"/>
+      </g>
+      <text id="중요" class="cls-8" transform="translate(420 363)"><tspan x="-11.04" y="0">중요</tspan></text>
+    </g>
+    <g id="그룹_2222" data-name="그룹 2222" transform="translate(4637 5744)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 345, 275)">
+        <rect id="사각형_533-4" data-name="사각형 533" class="cls-9" width="36" height="20" rx="10" transform="translate(57 73)"/>
+      </g>
+      <text id="급함" class="cls-10" transform="translate(420 363)"><tspan x="-11.04" y="0">급함</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -20,6 +20,7 @@
         box-shadow: 0 0 24px rgba(0, 0, 0, .16);
     }
     .bottom > .bottom-inner{display: flex; align-items: center; justify-content: center;}
+    .bottom > .bottom-inner > a{padding: 20px 10px;}
     .bottom > .bottom-inner > a, 
     #bottommainMenu > .bot-main-project > .bot-mainbtns{color: #151515 !important; font-size: 16px !important;}
     #bottommainMenu > .bot-main-project{float: left; padding: 20px 10px; cursor: pointer;}
@@ -27,7 +28,7 @@
     .sub-menu{
         position: fixed;
         left: 50%;
-        bottom: 4%; 
+        bottom: 16px; 
         transform: translate(-50%, -50%);
         background-color: rgba(251, 251, 254, 0.86);
         backdrop-filter: blur(6px);
@@ -211,7 +212,7 @@
     .visual-sec05-counting-date{padding: 0 16px;}
     .visual-sec05-counting-date > .title{display: flex; flex-direction: column;}
     .visual-sec05-counting-date > .title > h1{padding: 0 3rem;}
-    #countdown{ font-size: 3.5rem; margin-top: 2rem;}
+    #countdown{border: 1px solid red; margin: 0 auto; width: 328px; font-size: 3.5rem; margin-top: 2rem;}
     .visual-sec05-counting-date > .title > span:last-child{font-size: 1rem; margin-top: 1rem; color: #70757A;}
 
     .counting-typeText:nth-child(odd){padding: 1% 4%;}
@@ -228,10 +229,11 @@
     .google-foot{background-color: #F8F9FA; margin-top: 12rem; padding: 5% 16px 80% 16px;}
     
     .footer-inner > .google-fendes{
-        width: 330px;
-        height: 320px;
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 280px;
         margin-bottom: 2rem;
-        bottom: 25%;
+        bottom: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -448,8 +450,8 @@
     }
 
     .footer-inner > .google-fendes{
-        width: 24.625rem; 
-        height: 19.5rem;
+        width: 31.5rem; 
+        height: 22rem;
     }
 
     /* Somethm///////////////////////// */
