@@ -383,7 +383,7 @@
     pointer-events: none;
 }
   
-video#background-image{
+video.background-image{
     position: absolute;
     min-width: 100%;
     min-height: 100%;

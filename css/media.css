@@ -503,7 +503,7 @@
 
 
     /* ah-jeom //////*/
-    video#background-image{
+    video.background-image{
         width: 100vw; 
         height: auto;
         position: absolute;
@@ -567,7 +567,7 @@
     .visual-sec04-calendar-bookmark > .bookMark-inner{width: 60%;}
     
     /* ah-jeom //////*/
-    video#background-image{
+    video.background-image{
         width: 100vw; 
         height: auto;
         position: absolute;
@@ -637,7 +637,7 @@
 
     
     /* ah-jeom //////*/
-    video#background-image{
+    video.background-image{
         width: 100vw; 
         height: 100vh;
         position: absolute; 
