@@ -13,7 +13,7 @@
         fill: #2cb450;
       }
 
-      .cls-4, .cls-6, .cls-8 {
+      .cls-10, .cls-4, .cls-6 {
         fill: #fff;
       }
 
@@ -28,7 +28,11 @@
       }
 
       .cls-7 {
-        fill: #0d96ff;
+        fill: #ffd4d1;
+      }
+
+      .cls-8 {
+        fill: #ea4335;
       }
 
       .cls-10, .cls-8 {
@@ -37,11 +41,7 @@
       }
 
       .cls-9 {
-        fill: #ffd4d1;
-      }
-
-      .cls-10 {
-        fill: #ea4335;
+        fill: #0080ff;
       }
 
       .cls-11 {
@@ -52,14 +52,14 @@
         filter: url(#사각형_533);
       }
     </style>
-    <filter id="사각형_533" x="18" y="19" width="42" height="26" filterUnits="userSpaceOnUse">
+    <filter id="사각형_533" x="55" y="71" width="42" height="27" filterUnits="userSpaceOnUse">
       <feOffset dy="2" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur"/>
       <feFlood flood-opacity="0.259"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="사각형_533-2" x="54" y="72" width="42" height="26" filterUnits="userSpaceOnUse">
+    <filter id="사각형_533-2" x="17" y="19" width="42" height="27" filterUnits="userSpaceOnUse">
       <feOffset dy="2" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.259"/>
@@ -69,7 +69,7 @@
   </defs>
   <g id="create-schedule" transform="translate(-4982 -6019)">
     <circle id="타원_139" data-name="타원 139" class="cls-1" cx="57" cy="57" r="57" transform="translate(4982 6019)"/>
-    <g id="그룹_2221" data-name="그룹 2221" transform="translate(4996 6037)">
+    <g id="그룹_2221" data-name="그룹 2221" transform="translate(4997 6037)">
       <g id="그룹_508" data-name="그룹 508" transform="translate(14 11)">
         <rect id="사각형_435" data-name="사각형 435" class="cls-2" width="58" height="58"/>
         <g id="그룹_372" data-name="그룹 372" transform="translate(3.838 3.838)">
@@ -83,17 +83,17 @@
         </g>
       </g>
     </g>
-    <g id="그룹_2223" data-name="그룹 2223" transform="translate(4601 5691)">
-      <g class="cls-12" transform="matrix(1, 0, 0, 1, 381, 328)">
-        <rect id="사각형_533-3" data-name="사각형 533" class="cls-7" width="36" height="20" rx="10" transform="translate(21 20)"/>
+    <g id="그룹_2222" data-name="그룹 2222" transform="translate(4638 5744)">
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, 344, 275)">
+        <rect id="사각형_533-3" data-name="사각형 533" class="cls-7" width="36" height="21" rx="10" transform="translate(58 72)"/>
       </g>
-      <text id="중요" class="cls-8" transform="translate(420 363)"><tspan x="-11.04" y="0">중요</tspan></text>
+      <text id="급함" class="cls-8" transform="translate(420 362)"><tspan x="-11.04" y="0">급함</tspan></text>
     </g>
-    <g id="그룹_2222" data-name="그룹 2222" transform="translate(4637 5744)">
-      <g class="cls-11" transform="matrix(1, 0, 0, 1, 345, 275)">
-        <rect id="사각형_533-4" data-name="사각형 533" class="cls-9" width="36" height="20" rx="10" transform="translate(57 73)"/>
+    <g id="그룹_2244" data-name="그룹 2244" transform="translate(4600 5692)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 382, 327)">
+        <rect id="사각형_533-4" data-name="사각형 533" class="cls-9" width="36" height="21" rx="10" transform="translate(20 20)"/>
       </g>
-      <text id="급함" class="cls-10" transform="translate(420 363)"><tspan x="-11.04" y="0">급함</tspan></text>
+      <text id="중요" class="cls-10" transform="translate(420 362)"><tspan x="-11.04" y="0">중요</tspan></text>
     </g>
   </g>
 </svg>

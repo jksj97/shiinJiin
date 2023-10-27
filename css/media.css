@@ -84,7 +84,7 @@
         height: 36%;
     }
     .text-modalCont > p{padding: 0 26px;}
-    .google  h1{font-size: 26px;}
+    .google  h1{font-size: 26px; padding-bottom: .7rem;}
 
     .top-bar{padding: 0 16px; width: 100%; height: 100vh; position: relative;}
     .top-bar-area{
@@ -98,32 +98,38 @@
     }
     .google-speechBubble{
         width: 100%;
-        height: 25%; 
+        height: 86px; 
         display: flex; 
         flex-flow: row nowrap; 
         align-items: center; 
         justify-content: center;
     }
-    .google-speechBubble > p{font-size: 16px;}
+    .google-speechBubble > p{font-size: 16px; padding-top: 15px;}
     .google-speechBubble > img{
         left: 0; 
         top: 0; 
         width: 100%; 
-        height: auto;
+        height: 86px;
     }
     
     #section1, #section2 {padding: 0 16px; position: relative;}
     .problem > .inner{width: 100%;}
     .bubble-groups > li{width: 100%;}
+    .bubble-groups li:nth-child(5){margin-top: 5rem !important;}
     .bubble{
         display: inline-block;
         width: 100% !important;
         border-radius: 1.2rem;
     }
+    .bubble-groups{margin-top: 6px !important;}
     .bubble > p{padding: 3% 5%;}
     
+    .show-nowCalendar{margin-top: 1.5rem !important;}
     .show-nowCalendar > p {font-size: 14px;}
+    .show-proCalendar-answerAsisstant{margin-top: 8rem !important;}
     
+    #section2,
+    #section3{margin-top: 12rem !important;}
     #section2 > .inner > .show-proCalendar-answerAsisstant > li:nth-child(n+2){left: 0;}
     .show-proCalendar-answerAsisstant > li{padding: 1% 5%;}
     .show-proCalendar-answerAsisstant > .nowpro01 {
@@ -150,22 +156,26 @@
     .show-proCalendar-answerAsisstant li:last-child{margin-bottom: 0rem;}
     .btnSize-otherBrand{padding: 16px 4px 0 0;}
     
-    #section3 > .inner > .layout-topTitle{padding: 5rem 16px 2rem 16px;}
+    #section3 > .inner > .layout-topTitle{padding: 6rem 16px 2.2rem 16px;}
 
-    .develop-layoutImg {padding: 0 16px; width: 100%; height: auto;}
+    .develop-layoutImg {padding: 0 16px; width: 100%; height: auto; padding-bottom: 6rem !important;}
     .develop-layoutImg > .devel-imgGruop{width: 100%; display: inline-block;}
     .develop-layoutImg > .devel-imgGruop > .video-group {width: 100%;}
     .develop-layoutImg > .devel-imgGruop > .video-group > video {width: 100%;}
     .develop-layoutImg > .devel-imgGruop > .video-group > video:first-child{margin-bottom: 2rem;}
 
+    .layout-topTitle{padding-top: 6rem !important;}
     .flow-analysisInner{padding: 0 16px;}
     .what-user-calendarPurpos > .search-pos-group{padding: 1rem 0 0 1rem;}
     .flow-analysisInner > .what-user-calendarPurpos > .search-pos-group > li {font-size: 16px;}
+    
+    .what-user-calendarPurpos{margin-bottom: 4.5rem !important;}
     .what-user-calendarPurpos > .search-pos-group {margin-left: 0;}
     .what-calendar-serviceNow{position: relative; width: 100%;}
-    .title-search-user{padding: 1rem 1.5rem; display: flex; gap: 2.2rem; align-items: center; justify-content: space-between;}
+    .title-search-user{padding: 1rem 2rem; display: flex; gap: 2.2rem; align-items: center; justify-content: space-between;}
+    .title-search-user > p:first-child{width: 200px;}
 
-
+    .what-calendar-serviceNow > p:first-child{width: 220px;}
     .what-calendar-serviceNow > .lendar-service-group{
         text-align: left;
         width: 100%; 
@@ -186,16 +196,30 @@
         width: 100%;
         position: relative; 
         right: 0%;
-    } 
+    }
+
+    @media screen and (min-width: 359px) and (max-width: 376px){
+        #section2 > .inner > .top-showPro > h1{width: 220px; text-align: center; margin: 0 auto;}
+        .show-proCalendar-answerAsisstant > .nowpro01 > p{width: 280px;}
+        #section3 > .inner > .layout-topTitle:nth-child(1) > h1{width: 240px; text-align: left;}
+        .develop-layoutImg > .devel-imgGruop > p{width: 296px;}
+        .what-google-noService > .title-group-noService > p{width: 220px; margin-bottom: 6px !important;}
+        .end-analysis > p{width: 260px; margin: 0 auto;}
+        #section5 > .inner > h1:first-child{width: 200px; margin: 0 auto;}
+    }
+
     .calendar-checkLayout{padding: 2rem 0 1rem 0;}
     .calendar-serch-chcek{padding: 0 0 3rem 0;}
 
     .end-analysis{padding-bottom: 3rem;}
 
-    #section5{padding: 0 16px;}
+    #section5{padding: 0 16px; margin-top: 12rem !important;}
+    .update-group{margin-top: 0 !important;}
+    .update-group > li:first-child{margin: 2rem 0 0 0 !important;}
     .in-updata-group{border-left: none;}
 
-    #section6 > .visual-sec02-popup > .title > p{padding: 0 3rem;}
+    #section6{margin: 12rem 0 !important;}
+    #section6 > .visual-sec02-popup > .title > p{width: 260px; margin: 0 auto;}
     .visual-sec02-popup{padding: 0 16px;}
     .visual-sec02-popup > .title > img{width: 100%; margin-top: 2rem;}
     .motion-service-vlsual{width: 100%;}
@@ -211,12 +235,12 @@
 
     .visual-sec05-counting-date{padding: 0 16px;}
     .visual-sec05-counting-date > .title{display: flex; flex-direction: column;}
-    .visual-sec05-counting-date > .title > h1{padding: 0 3rem;}
+    .visual-sec05-counting-date > .title > h1{width: 200px; margin: 0 auto;}
     #countdown{margin: 0 auto; width: 328px; font-size: 3.5rem; margin-top: 2rem;}
     .visual-sec05-counting-date > .title > span:last-child{font-size: 1rem; margin-top: 1rem; color: #70757A;}
 
-    .counting-typeText:nth-child(odd){padding: 1% 4%;}
-    .counting-typeText:nth-child(even){padding: 2% 6%;}
+    .counting-typeText:nth-child(odd),
+    .counting-typeText:nth-child(even){padding: 1% 4%;}
 
     .visual-sec05-counting-date > .bot-visual-img02{
         width: 100%; 

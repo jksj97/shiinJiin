@@ -83,14 +83,14 @@
 
 .bubble-groups li:nth-child(5){margin-top: 7rem;}
 .bubble-groups li:nth-child(5)::before{
-    z-index: -2;  
+    z-index: -100;  
     content: " ";
     background: url("../img/loding.svg") no-repeat center;
     display: inline-block;
-    width: 3rem;
+    width: 3.2rem;
     height: 0.8rem;
     position: absolute;
-    top: -2.8rem;
+    top: -2.4rem;
     left: 0;
 }
 .bubble-groups li:nth-child(5)::after{
@@ -106,8 +106,8 @@
     left: -0.05rem;   
 }
 
-.pro-asisstant-answer{width: 100%; margin-top: 7rem;}
-.pro-asisstant-answer img {text-align: center;}
+.pro-asisstant-answer{width: 100%; margin-top: 2.4rem;}
+.pro-asisstant-answer img {text-align: center; position: relative; left: -2rem;}
 .pro-asisstant-answer .asisstant-speech {position: relative;}
 
 
@@ -331,7 +331,7 @@
 
 .counting-typeText{display: inline-block; margin-left: 1rem;}
 .counting-typeText:nth-child(even){border-radius: 5rem;}
-.counting-typeText:nth-child(even) > span{font-size: 1.5rem;}
+.counting-typeText:nth-child(even) > span{font-size: 1rem;}
 
 .counting-typeText:nth-child(odd){border-radius: 3rem;}
 .counting-typeText:nth-child(odd) > span{font-size: 1rem;}
