@@ -262,6 +262,76 @@
         transform: translate(-50%, -50%);
     }
     .footer-text-box{padding: 2rem 0;}
+    
+    
+    
+    
+    /* ah-Jeom///////////////////////// */
+    /* #main-banner{border: 10px solid red;} */
+    #main-banner > video{width: 100%;}
+    .pro-sec00 > .inner > .title{position: relative; top: 6rem;}
+    .sec00Project-planProcess > .plansConcept-group{padding: 0 16px;}
+    .sec00Project-planProcess > ol{position: relative; top: 6rem;}
+    .sec00Project-planProcess > ol > li > .text-planInner{
+        flex-direction: column;
+        gap: 1rem;
+        width: 246px;
+        height: 164px;
+    }
+    .sec00Project-planProcess > ol > li > .text-planInner > p:first-child,
+    .pro-sec00 > .inner > .title > p,
+    .sec00Project-planProcess > .plans-issue > .title > p{color: #969ba0; display: block;}
+    .sec00Project-planProcess > ol > li > .text-planInner > p:nth-child(1)::after{
+        display: none !important;
+        /* top: 70px;
+        left: 143px; */
+    }
+
+    .sec00Project-planProcess > .plans-issue{position: relative; top: 11.125rem; padding: 0 16px;}
+    .sec00Project-planProcess > .plans-issue > .title{width: 328px;}
+    .sec00Project-planProcess > .plans-issue > img,
+    .sec00Project-planProcess > .plans-issue > .mygallerya > img{width: 100%;}
+
+    .pro-sec01{margin-top: 22rem; padding: 0 16px; overflow: hidden;}
+    .pro-sec01 > .inner > .title{width: 260px; margin: 0 auto;}
+    .pro-sec01 > .inner > .title > p,
+    .pro-sec02 > .inner > .title > p{color: #969ba0;}
+    .proto-sec01-video{
+        overflow: hidden; 
+        width: 100% !important; 
+        height: 260px !important;
+    }
+    .proto-sec01-video > video{
+        /* margin: 0 auto; */
+        width: 500px; 
+        height: auto; 
+        position: relative;
+        top: 3rem;
+        left: -85px;
+    }
+
+    .pro-sec02{margin: 12rem 0;}
+    .pro-sec02 > .inner > .title{width: 280px; margin: 0 auto;}
+    .moblie-sec02-imgGroup{
+        /* border: 1px solid red; */
+        overflow: hidden; 
+        padding: 0 16px;
+        width: 100%; 
+        height: auto;
+        margin-top: 4rem;
+    }
+    .moblie-sec02-imgGroup > img{
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 406px;
+        height: auto;
+    }
+    .pro-sec03 > .inner > .title{padding: 0 16px; width: 360px;}
+
+    .pro-sec04{margin: 12rem 0; padding: 0 16px;}
+
+
 
     /* Somethm///////////////////////// */
     .some-sec{width: 100%; overflow: hidden; position: relative;}
@@ -478,6 +548,28 @@
         height: 22rem;
     }
 
+
+
+
+
+    /* ah-Jeom///////////////////////// */
+    .pro-sec00{margin: 22.222rem auto;}
+    .sec00Project-planProcess > ol > li > .text-planInner > p:nth-child(1){margin-right: 13.333rem;}
+    .sec00Project-planProcess > ol > li > .text-planInner > p:nth-child(1)::after{
+        top: 14px;
+        left: 308px;
+    }
+    .sec00Project-planProcess > .plans-issue {margin: 320px auto;}
+    .sec00Project-planProcess > .plans-issue > .title > p{right: 40px;}
+    .sec00Project-planProcess > .plans-issue > .mygallerya{margin: 460px auto;}
+    .proto-sec01-video > video{width: 100vw; height: 100%;}
+    .pro-sec03{margin-bottom: 22.222rem;}
+    .pro-sec04{margin-bottom: 22.222rem;}
+
+
+
+
+
     /* Somethm///////////////////////// */
     .some-sec > .conts {width: 90%; background-size: cover;}
 
@@ -506,6 +598,9 @@
         position: relative;
         top: 8%;
     }
+    .pro-sec02{margin: 22.222rem 0;}
+    .pro-sec02 > .inner {display: flex; align-items: center; justify-content: end;}
+    .pro-sec02 > .inner > .title{text-align: left; margin-bottom: 230px;}
 
 }
 @media screen and (min-width: 3071px){
