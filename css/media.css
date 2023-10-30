@@ -77,6 +77,9 @@
 
     .about > .detail-index > .tell-aboutMe{padding-bottom: 25% !important;}
 
+    footer{padding: 5rem;}
+    footer > .footer-inner > p{position: relative; top: -2.6rem;}
+
     /* Google */
     .modal-content {
         top: -5%;
@@ -249,7 +252,6 @@
     }
     .visual-sec05-counting-date > .bot-visual-img02 > video{width: 100%;}
 
-    footer{padding: 5rem;}
     .google-foot{background-color: #F8F9FA; margin-top: 12rem; padding: 5% 16px 80% 16px;}
     
     .footer-inner > .google-fendes{
@@ -268,7 +270,8 @@
     
     /* ah-Jeom///////////////////////// */
     /* #main-banner{border: 10px solid red;} */
-    #main-banner > video{width: 100%;}
+    .jeomSect{border-radius: 24px;}
+    #main-banner > video{width: 100%; position: relative; top: -2.5rem;}
     .pro-sec00 > .inner > .title{position: relative; top: 6rem;}
     .sec00Project-planProcess > .plansConcept-group{padding: 0 16px;}
     .sec00Project-planProcess > ol{position: relative; top: 6rem;}
@@ -335,22 +338,24 @@
     }
     .pro-sec03 > .inner > .title{padding: 0 16px; width: 360px;}
 
-    .pro-sec04{margin: 12rem 0; padding: 0 16px 9rem 16px;}
+    .pro-sec04{margin: 12rem 0; padding: 0 16px; width: 100%; height: 1800px;}
     .fontStyle-imgGroup{
         top: 5rem; 
         width: 100%; 
         height: 100%; 
+        text-align: center;
     }
     .sec04-img-group{position: relative;}
     .fontStyle-imgGroup > img{
         width: 328px; 
         height: 33.75rem;
     }
-    .sec04-img-group{margin-top: 1rem;}
+    .sec04-img-group{width: 100%; margin-top: 1rem; text-align: center;}
     .sec04-img-group > li{
+        text-align: center;
         width: 328px; 
         height: 112px;
-        margin-bottom: 6px;
+        margin: 0 auto 6px auto;
     }
 
     .play-proto > .wb-01{padding: 0 16px;}
@@ -409,12 +414,11 @@
 
     }
     .custom-cont > .protoImages-showGroup{
-        /* border: 1px solid red; */
         width: 328px;
         height: 73.38rem;
         margin-left: -164px;
         position: absolute !important;
-        top: 37.7rem;
+        top: 40.7rem;
         left: 50%;
     }
     .items-wb03Group > .custom-item:nth-child(1){top: 18rem; left: 0;}
@@ -431,6 +435,9 @@
     }
 
     .buy-cont{margin-top: 12rem; width: 100%; position: relative;}
+    .buy-cont > .white-title{margin-bottom: 4rem;}
+    .buy-cont > .protoImages-showGroup{padding: 0 2rem;}
+    .buy-cont > .protoImages-showGroup > .souse > img{border-radius: 16px;}
     .protoImages-showGroup,
     .protoImages-showGroup > .souse{
         display: flex; 
@@ -439,8 +446,19 @@
         width: 100%; 
         margin: 0 auto;
     }
-    .protoImages-showGroup > .souse > img{width: 100%; margin: 0 auto;}
+    .protoImages-showGroup > .souse > img{width: 100%; margin: 0 auto; border: 2px solid #151515;}
 
+    .end-cont{width: 100%; margin: 6rem auto 0 auto;}
+    .protoImages-showGroup > .items-end{
+        /* display: inline-flex; */
+        columns: 2;
+        padding-bottom: 4rem;
+    }
+    .protoImages-showGroup > .items-end > .end-item{
+        margin-bottom: 4px;
+        width: 170px; 
+        height: 362.67px; 
+    }
 
     /* Somethm///////////////////////// */
     .some-sec{width: 100%; overflow: hidden; position: relative;}
@@ -743,6 +761,11 @@ s    .pro-sec00{margin: 22.222rem auto;}
     .buy-cont{width: 86%; margin: 380px auto 0 auto; display: flex; gap: 24%; align-items: center; justify-content: center;}
     .protoImages-showGroup > .items-end{display: flex; gap: 16px; align-items: center; justify-content: center;}
 
+    .end-cont{width: 86%; margin: 380px auto 0 auto;}
+    .protoImages-showGroup > .items-end > .end-item{
+        width: 300px; 
+        height: 640px; 
+    }
 
 
 
