@@ -291,7 +291,7 @@
     }
 
     .sec00Project-planProcess > .plans-issue{position: relative; top: 11.125rem; padding: 0 16px;}
-    .sec00Project-planProcess > .plans-issue > .title{width: 328px;}
+    .sec00Project-planProcess > .plans-issue > .title{width: 328px; margin: 0 auto;}
     .sec00Project-planProcess > .plans-issue > img,
     .sec00Project-planProcess > .plans-issue > .mygallerya > img{width: 100%;}
 
