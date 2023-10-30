@@ -511,34 +511,22 @@ video.background-image{
 /* wb-03 */
 .wb-03{width: 100%;}
 .wb-03 > .inner > .proto-wb03 > .white-title{text-align: left;}
-.wb-03 > .inner > .proto-wb03 > .white-title > h1{margin-bottom: 40px}
-.wb-03 > .inner > .proto-wb03 > .white-title > p{margin-top: 40px}
-.wb-03 > .inner > .custom-cont > .white-title > p {margin-top: 1.5rem; padding-left: .5rem;}
 
 /* custom-cont */
-.custom-cont{display: flex; justify-content: space-between; position: relative; height: 1500px; margin: 0 auto;}
+.custom-cont{margin: 0 auto;}
 
-.custom-cont > .protoImages-showGroup{margin-top: 160px; width: 62%; height: 100%; position: relative;}
-.custom-cont > .white-title{margin-top: 160px; width: 34%;}
+.custom-cont > .protoImages-showGroup{position: relative;}
 
-.items-wb03Group > .custom-item{position: absolute; width: 300px; height: 640px; border: 2px solid black; border-radius: 12px;}
-.items-wb03Group > .custom-item:nth-child(1){top: 380px; right: 316px; background: url("../img/Custom-01.png") no-repeat center; background-size: cover;}
-.items-wb03Group > .custom-item:nth-child(2){top: 0; right: 0; background: url("../img/Custom-02.png") no-repeat center; background-size: cover;}
-.items-wb03Group > .custom-item:nth-child(3){top: 672px; right: 0; background: url("../img/Custom-03.png") no-repeat center; background-size: cover;}
+.items-wb03Group > .custom-item{position: absolute; border: 2px solid black; border-radius: 12px;}
+.items-wb03Group > .custom-item:nth-child(1){background: url("../img/Custom-01.png") no-repeat center; background-size: cover;}
+.items-wb03Group > .custom-item:nth-child(2){background: url("../img/Custom-02.png") no-repeat center; background-size: cover;}
+.items-wb03Group > .custom-item:nth-child(3){background: url("../img/Custom-03.png") no-repeat center; background-size: cover;}
 
 
-.buy-cont{width: 86%; margin: 380px auto 0 auto; display: flex; gap: 24%; align-items: center; justify-content: center;}
 .buy-cont > .white-title > h1{padding-top: 0;}
-/* .buy-cont > .protoImages-showGroup > .souse {
-    width: 300px; 
-    height: 640px; 
-    border: 2px solid black; 
-    border-radius: 12px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
-} */
+
 
 .end-cont{width: 86%; margin: 380px auto 0 auto;}
-.protoImages-showGroup > .items-end{display: flex; gap: 16px; align-items: center; justify-content: center;}
 .protoImages-showGroup > .items-end > .end-item{width: 300px; height: 640px; float: left; border: 2px solid black; border-radius: 12px;}
 
 .protoImages-showGroup > .items-end > .end-item:nth-child(1){background: url("../img/last-01.png") no-repeat center; background-size: cover;}

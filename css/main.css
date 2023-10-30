@@ -211,8 +211,42 @@ section{position: relative; clear: both;}
 
 
 /* ah-Jeom btn style */
-.wb-03 > .inner > .custom-cont > .white-title > span{font-size: 1rem; font-weight: 200; color: white; background-color: #151515; border-radius: 50px; border: none; padding: 13px 24px; margin-right: 12px;}
+@media screen and (min-width: 360px) and (max-width: 812px){ 
 
+    .wb-03 > .inner > .custom-cont > .white-title > .group-keywords{
+        /* border: 1px solid red; */
+        columns: 2;
+        margin-top: 7rem;
+        width: 328px;  
+        height: 140px;
+    }
+    .wb-03 > .inner > .custom-cont > .white-title > .group-keywords > span{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+        /* width: 126px; */
+        padding: 1rem 1.8rem; 
+    }
+    .wb-03 > .inner > .custom-cont > .white-title > .group-keywords > span:nth-child(2){position: relative; top: 1rem;}
+    .wb-03 > .inner > .custom-cont > .white-title > .group-keywords > span:nth-child(3){position: relative; left: -1rem;}
+
+}
+@media screen and (min-width: 1080px) and (max-width: 3073px){
+
+    .wb-03 > .inner > .custom-cont > .white-title > .group-keywords > span{
+        padding: 13px 24px; 
+        margin-right: 12px;
+    }
+}
+.wb-03 > .inner > .custom-cont > .white-title  > .group-keywords > span{
+    font-size: 1rem; 
+    font-weight: 200; 
+    color: white; 
+    background-color: #151515; 
+    border-radius: 50px; 
+    border: none; 
+}
 
 
 /* some-bg */
