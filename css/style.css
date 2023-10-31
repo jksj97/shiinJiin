@@ -443,7 +443,7 @@ video.background-image{
 .pro-sec03 > .inner{height: 100%;}
 .pro-sec03 > .inner > .title{text-align: left;}
 
-.sec01-gallrey-group{position: relative; height: 52.444rem; margin-top: 60px;}
+.sec01-gallrey-group{position: relative; height: 52.444rem; margin-top: 8rem;}
 .moblie-gallery{position: absolute; left: 50%; transform: translate(-50%, 0);}
 .moblie-gallery > img{width: 18.333rem; height: 52.444rem;}
 

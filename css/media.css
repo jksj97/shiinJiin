@@ -538,7 +538,7 @@
 
 }
 
-@media screen and (min-width: 1080px) and (max-width: 3073px){
+@media screen and (max-width: 3074px){
     .body{min-width: 1000px;}
     .title > h1{font-size: 1.778rem; margin-bottom: 0.75rem;}
 
@@ -643,7 +643,7 @@
 
     .visual-sec02-popup > .title > img{width: 60%; margin-top: 3rem;}
     .motion-service-vlsual{width: 60%;}
-    .motion-service-vlsual > .about-new-service{margin-left: 2rem;}
+    .motion-service-vlsual > .about-new-service{margin-left: 3.2rem;}
     .visual-sec04-calendar-bookmark > .bookMark-inner{display: flex; gap: 12rem; align-items: center; justify-content: space-between;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > .title{padding-bottom: 10rem;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{white-space: pre-wrap; text-align: left; line-height: 28px;}
@@ -724,12 +724,15 @@ s    .pro-sec00{margin: 22.222rem auto;}
     .protos-wb01 > video{width: 100%; height: 100%;}
 
     .wb-02 > .inner{
+        /* border: 1px solid red; */
+        /* width: 80%; */
+        margin: 0 auto;
         display: flex; 
         align-items: center; 
-        justify-content: left;
+        justify-content: space-between;
     }
 
-    .wb-02 > .inner > .white-title{width: 30%; text-align: left; margin-left: 180px;}   
+    .wb-02 > .inner > .white-title{width: 30%; text-align: left; margin-left: 20rem;}   
     .wb-02 > .inner > .white-title > p{padding-bottom: 160px;}
     .wb-03 > .inner > .proto-wb03 > .white-title > p{margin-bottom: 40px; padding-left: .5rem;}
     
@@ -748,6 +751,8 @@ s    .pro-sec00{margin: 22.222rem auto;}
     
     .wb-03{height: 3800px;}
 
+    .group-keywords{position: relative; top: 3rem; width: 100%; height: 108px;}
+    .group-keywords > span{position: relative; top: 0rem;}
 
     .custom-cont{display: flex; justify-content: space-between; position: relative; height: 1500px;}
     .custom-cont > .protoImages-showGroup{margin-top: 160px; width: 62%; height: 100%;}
@@ -767,6 +772,8 @@ s    .pro-sec00{margin: 22.222rem auto;}
         height: 640px; 
     }
 
+    .souse{width: 360px; height: 740px; overflow: hidden; border: 2px solid #151515; border-radius: 12px;}
+    .souse > img{width: 100%; height: auto;}
 
 
     /* Somethm///////////////////////// */
@@ -798,10 +805,11 @@ s    .pro-sec00{margin: 22.222rem auto;}
         top: 8%;
     }
     .pro-sec02{margin: 22.222rem 0;}
-    .pro-sec02 > .inner {display: flex; align-items: center; justify-content: end;}
+    .pro-sec02 > .inner {display: flex; align-items: center; justify-content: space-between;}
     .pro-sec02 > .inner > .title{text-align: left; margin-bottom: 230px;}
 
 }
+
 @media screen and (min-width: 3071px){
     /* body{background-color: blue;} */
     
@@ -812,6 +820,7 @@ s    .pro-sec00{margin: 22.222rem auto;}
     .what-user-calendarPurpos,
     .what-calendar-serviceNow,
     .what-google-noService{padding: 0;}
+    .what-user-calendarPurpos{padding: 0 8rem;}
     .check-update{padding: 0 18rem;}
     .visual-sec03-service-menubar{padding: 0 18.75rem;}
     .visual-sec04-calendar-bookmark {padding: 5rem 18rem;}
@@ -867,9 +876,9 @@ s    .pro-sec00{margin: 22.222rem auto;}
 
 
 @media screen and (min-width: 2559px) and (max-width: 3070px){
-    /* body {
-        background-color: red;
-    } */
+     /* body {
+        background-color: red !important;
+    }  */
  
     /* google //////*/
     .problems, .show-problems{padding: 2.5rem 18rem;}
@@ -879,7 +888,7 @@ s    .pro-sec00{margin: 22.222rem auto;}
     .what-google-noService{padding: 0 18rem;}
     .items-data{width: 50%; margin: auto;}
     .motion-service-vlsual{width: 80%;}                                                                                                                                                                                                  
-    .motion-service-vlsual > .about-new-service{padding-left: 56px;}
+    .motion-service-vlsual > .about-new-service{padding-left: 56px; border: 1px solid red; width: 70%; margin: 0 auto;}
 
 
     .items-data{width: 30%; margin: auto;}
@@ -898,12 +907,12 @@ s    .pro-sec00{margin: 22.222rem auto;}
     .pro-sec01 > .inner > .title{padding: 0 16.667rem;}
 
 
-    .pro-sec02{padding: 0 30rem; width: 100%; height: auto; overflow: hidden;} 
+    .pro-sec02{padding: 0 28rem; width: 100%; height: auto; overflow: hidden;} 
     .pro-sec00, .pro-sec02 > .inner {width: 100%;}
     .pro-sec00, .pro-sec02 > .inner > .title{padding-left: 2rem;}
     .moblie-sec02-imgGroup{position: relative; left: 10rem;}
 
-    .pro-sec03 > .inner > .title{padding: 0 32rem;}
+    .pro-sec03 > .inner > .title{padding: 0 30rem;}
     .sec01-gallrey-group > .lineBoxs > .line-box{width: 100%; padding: 0 42rem;}
 
     .ci1{top: -3px; right: 10rem;}
@@ -918,7 +927,7 @@ s    .pro-sec00{margin: 22.222rem auto;}
 
 
     .pro-sec04{padding: 80px 16rem;}
-    .pro-sec04 > .inner{width: 40%;}
+    .pro-sec04 > .inner{width: 38.5%;}
     .fontStyle-imgGroup > img{right: 0px;}
     
     .wb-03{padding: 0 0;}
@@ -930,15 +939,30 @@ s    .pro-sec00{margin: 22.222rem auto;}
 
 @media screen and (min-width: 1080px) and (max-width: 1920px){
    /* body {
-        background-color: green;
-    } */
+        background-color: green !important;
+    }  */
 
     /* google //////*/
+    .modal-content{top: -20%;}
     .problems, .show-problems{padding: 2.5rem 14rem;}
     .flow-analysisInner{padding: 0 10rem 8.4rem 10rem;}
     .items-data{width: 50%; margin: auto;}
 
+    .bubble-groups li:first-child::before, 
+    .pro-asisstant-answer .asisstant-speech::before,
+    .bubble-groups li:nth-child(5)::after,
+    .show-proCalendar-answerAsisstant .nowpro04::before,
+    .show-proCalendar-answerAsisstant .nowpro04::before{width: 4rem !important; height: 2.1rem !important;}
+
+    .bubble-groups li:first-child::before, 
+    .pro-asisstant-answer .asisstant-speech::before,
+    .bubble-groups li:nth-child(5)::after,
+    .show-proCalendar-answerAsisstant .nowpro04::before {top: -.54rem !important;}
+    .show-proCalendar-answerAsisstant .nowpro04::before{top: -.5rem !important;}
+
+    #section2,
     #section3 {padding: 0 12rem;}
+    .what-user-calendarPurpos{padding: 0 6rem;}
     #section3 > .inner > .develop-layoutImg > .devel-imgGruop{margin: auto; width: 1320px; position: relative;}
     #section3 > .inner > .develop-layoutImg > .devel-imgGruop > .video-group{width: 100%; display: flex; align-items: center; justify-content: space-between;}
     #section3 > .inner > .develop-layoutImg > .devel-imgGruop > .video-group > video{width: 49%;}
@@ -965,10 +989,14 @@ s    .pro-sec00{margin: 22.222rem auto;}
     }
 
     .jeomSect{padding: 9rem 0;}
+
     .pro-sec01 > .inner > .title{padding: 0 16.667rem;}
+    .sec00Project-planProcess > ol{width: 100%; padding: 0 14rem; text-align: center; justify-content: left; margin: 0 auto;}
+    .sec00Project-planProcess > ol > li{float: left; display: block;}
+    .sec00Project-planProcess > ol > li > .text-planInner{align-items: center; justify-content: left;}
 
     .pro-sec02{padding: 0 13rem; width: 100%; height: auto; overflow: hidden;} 
-    .pro-sec00, .pro-sec02 > .inner {gap: 0px; position: relative; left: 5%;}
+    .pro-sec02 > .inner {gap: 0px; position: relative; left: 5%;}
     .sec01-gallrey-group > .lineBoxs > .line-box{width: 100%; padding: 0 42rem;}
 
     .ci1{top: -3px; right: -6rem;}
@@ -981,6 +1009,7 @@ s    .pro-sec00{margin: 22.222rem auto;}
     .line-box > .lineBoxs-inner > span.sizeName4{top: -6.4rem; right: -6rem;}
     .line-box > .lineBoxs-inner > span.sizeName5{top: -6.4rem; right: -6rem;}
 
+    .wb-02 > .inner > .white-title{margin-left: 6rem !important;}
     .pro-sec03 > .inner > .title{padding: 0 16.667rem;}
 
     .pro-sec04{padding: 80px 12rem;}
