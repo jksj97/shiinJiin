@@ -538,7 +538,7 @@
 
 }
 
-@media screen and (max-width: 3074px){
+@media screen and (min-width: 3071px) and (max-width: 3072px){
     .body{min-width: 1000px;}
     .title > h1{font-size: 1.778rem; margin-bottom: 0.75rem;}
 
