@@ -126,6 +126,19 @@
     }
     .bubble-groups{margin-top: 6px !important;}
     .bubble > p{padding: 3% 5%;}
+
+    .show-proCalendar-answerAsisstant > .nowpro01 > p::before{
+        content: "";
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: -8rem;
+        left: 0rem;
+
+        background: url("../img/hey-google-icon.svg") no-repeat center;
+        background-size: contain;
+    }
     
     .show-nowCalendar{margin-top: 1.5rem !important;}
     .show-nowCalendar > p {font-size: 14px;}
@@ -613,6 +626,7 @@
     .bubble{
         display: flex;
         align-items: center;
+        justify-content: space-between;
         padding: 1% .5%;
         border-radius: 2.5rem;
     }
@@ -625,8 +639,18 @@
     .show-proCalendar-answerAsisstant > li:nth-child(n+2){left: 120px;}
     .show-proCalendar-answerAsisstant .nowpro01 {margin-left: 120PX;}
 
-    .show-proCalendar-answerAsisstant .nowpro01 img{position: relative; left: -120px;}
-    .show-proCalendar-answerAsisstant .nowpro01 p{position: absolute; top: 1.2rem; left: 0;}
+    .show-proCalendar-answerAsisstant > .nowpro01 > p::before{
+        content: "";
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: -1.5rem;
+        left: -7rem;
+
+        background: url("../img/hey-google-icon.svg") no-repeat center;
+        background-size: contain;
+    }
 
     .show-proCalendar-answerAsisstant{margin-top: 6rem; text-align: center;}
 
@@ -652,8 +676,9 @@
 
 
     @media screen and (min-width: 2561px) and (max-width: 3072px){
-        html{background-color: aqua;}
+        /* html{background-color: aqua;} */
 
+        /* 구글 ////////////////////////////////////////////////*/
         /*/////// 서비스 문제점을 분석할게요. */
         .flow-analysisInner{padding: 0 42rem;}
         .what-user-calendarPurpos{padding: 0 5rem;}
@@ -671,10 +696,18 @@
             justify-content: space-between;
         }
         .visual-sec04-calendar-bookmark > .bookMark-inner > .title{width: 50%;}
+
+
+
+
+        /* 아제옴 ////////////////////////////////////////////////*/
+
+
     }
     @media screen and (min-width: 1921px) and (max-width: 2561px){
-        html{background-color: red;}
+        /* html{background-color: red;} */
 
+        /* 구글 ////////////////////////////////////////////////*/
         /*/////// 서비스 문제점을 분석할게요. */
         .flow-analysisInner{padding: 0 24rem;} 
         .what-user-calendarPurpos{padding: 0 10rem;}
@@ -693,10 +726,17 @@
         }
         .visual-sec04-calendar-bookmark > .bookMark-inner > .title{width: 50%;}
 
+
+
+
+        /* 아제옴 ////////////////////////////////////////////////*/
+
+
     }
     @media screen and (max-width: 1921px){
-        html{background-color: green;}
+        /* html{background-color: green;} */
 
+        /* 구글 ////////////////////////////////////////////////*/
         .modal-content {
             width: 26% !important;
             height: 28% !important;
@@ -709,6 +749,12 @@
         .visual-sec05-counting-date > .bot-visual-img02{
             width: 60% !important; 
         }
+
+
+
+        
+        /* 아제옴 ////////////////////////////////////////////////*/
+
 
     }
 
