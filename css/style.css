@@ -299,7 +299,7 @@
 
 .motion-service-vlsual{margin: 70px auto 0 auto;}
 .motion-service-vlsual > .about-new-service{text-align: left;}
-.motion-service-vlsual > .about-new-service > h3{font-weight: 400; font-size: 1.25rem; margin-bottom: 0.625rem;}
+.motion-service-vlsual > .about-new-service > h3{font-weight: 400; font-size: 1.25rem;}
 .motion-service-vlsual > .about-new-service > p{color: #70757A;}
 
 .visual-sec03-service-menubar > .menuBar-imgGroup > video{margin: 4rem 0 1.9rem 0;}
@@ -410,12 +410,15 @@ video.background-image{
 .pro-sec01 > .inner > .title,
 .pro-sec02, 
 .pro-sec03 > .inner > .title{text-align: center;}
-/* sect01-0 */
 
-.sec00Project-planProcess{text-align: center;}
-.sec00Project-planProcess > ol{display: inline-block; margin-top: 100px;}
+/* sect01-0 */
+.pro-sec00{display: flex; justify-content: center;}
+.pro-sec00 > .inner{margin: 0 auto;}
+.pro-sec00 > .inner > .title{text-align: center;}
+.sec00Project-planProcess{width: 100%; text-align: center;}
+.sec00Project-planProcess > ol{display: inline-block; margin-top: 6rem;}
 .sec00Project-planProcess > ol > li{position: relative;}
-.sec00Project-planProcess > ol > li:first-child{margin-bottom: 36px;}
+.sec00Project-planProcess > ol > li:first-child{margin-bottom: 1rem;}
 .sec00Project-planProcess > ol > li > .text-planInner{display: flex;}
 .sec00Project-planProcess > ol > li > .text-planInner > p:nth-child(1)::after{
     position: absolute;
@@ -428,9 +431,22 @@ video.background-image{
 }
 
 .sec00Project-planProcess > .plans-issue {text-align: center;}
-.sec00Project-planProcess > .plans-issue > .title > p{display: block; position: relative;}
+.sec00Project-planProcess > .plans-issue > .title{text-align: center;}
+.sec00Project-planProcess > .plans-issue > .title > p{display: block;}
 .sec00Project-planProcess > .plans-issue > .title > p:last-child{margin-bottom: 40px;}
 
+.issue-group{display: flex; flex-direction: column;}
+
+.issue-group > .imgIS{
+    display: inline; 
+    width: 100%;
+}
+.issue-group > .isImg01{
+    background-size: contain;
+}
+.issue-group > .isImg02{
+    background-size: contain;
+}
 
 /* sect01-1 */
 .proto-sec01-video{position: relative; width: 100vw; height: 800px;}

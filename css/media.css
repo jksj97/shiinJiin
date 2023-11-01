@@ -270,8 +270,24 @@
     
     /* ah-Jeom///////////////////////// */
     /* #main-banner{border: 10px solid red;} */
-    .jeomSect{border-radius: 24px;}
     #main-banner > video{width: 100%; position: relative; top: -2.5rem;}
+   
+    .sec00Project-planProcess > .plans-issue {margin: 18rem auto;}
+    .issue-group{margin-top: 2rem;}
+
+    .issue-group > .isImg01{
+        height: 900px;
+        background: url("../img/plan01.png") no-repeat center; 
+        margin-bottom: 4rem;
+    }
+    .issue-group > .isImg02{
+        height: 2400px;
+        background: url("../img/mygallerya.png") no-repeat center; 
+    }
+
+
+    .jeomSect{border-radius: 24px;}
+    
     .pro-sec00 > .inner > .title{position: relative; top: 6rem;}
     .sec00Project-planProcess > .plansConcept-group{padding: 0 16px;}
     .sec00Project-planProcess > ol{position: relative; top: 6rem;}
@@ -292,6 +308,7 @@
 
     .sec00Project-planProcess > .plans-issue{position: relative; top: 11.125rem; padding: 0 16px;}
     .sec00Project-planProcess > .plans-issue > .title{width: 328px; margin: 0 auto;}
+
     .sec00Project-planProcess > .plans-issue > img,
     .sec00Project-planProcess > .plans-issue > .mygallerya > img{width: 100%;}
 
@@ -413,6 +430,7 @@
         /* border: 1px solid red; */
 
     }
+    .proto-wb03 > .white-title > p {width: 200px;}
     .custom-cont > .protoImages-showGroup{
         width: 328px;
         height: 73.38rem;
@@ -434,6 +452,8 @@
         padding-left: 0;
     }
 
+    .pro-sec04 > .inner > .title > p{width: 250px;}
+
     .buy-cont{margin-top: 12rem; width: 100%; position: relative;}
     .buy-cont > .white-title{margin-bottom: 4rem;}
     .buy-cont > .protoImages-showGroup{padding: 0 2rem;}
@@ -450,14 +470,17 @@
 
     .end-cont{width: 100%; margin: 6rem auto 0 auto;}
     .protoImages-showGroup > .items-end{
-        /* display: inline-flex; */
+        width: 328px;
         columns: 2;
-        padding-bottom: 4rem;
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        padding-bottom: 2rem;
     }
     .protoImages-showGroup > .items-end > .end-item{
         margin-bottom: 4px;
-        width: 170px; 
-        height: 362.67px; 
+        width: 100%;
+        height: 324px;
     }
 
     /* Somethm///////////////////////// */
@@ -538,7 +561,15 @@
 
 }
 
-@media screen and (min-width: 3071px) and (max-width: 3072px){
+
+
+
+
+
+
+/*//// (min-width: 2559px) and (max-width: 3072px) ///////////////////*/
+@media screen and (min-width: 1920px) and (max-width: 3073px){
+
     .body{min-width: 1000px;}
     .title > h1{font-size: 1.778rem; margin-bottom: 0.75rem;}
 
@@ -551,8 +582,8 @@
     /* Modal */
     .modal-content {
         top: -25%;
-        width: 24%;
-        height: 26%;
+        width: 20%;
+        height: 22%;
     }
 
     /* Google///////////////////////// */
@@ -604,6 +635,8 @@
         height: 11rem;
         margin: 2rem 1rem 4rem 0;
     }
+
+    /*/////// 캘린더의 레이아웃을 변경합니다. */
     .btnSize-otherBrand{
         padding: 1% 3rem;
     }
@@ -617,22 +650,109 @@
         padding-bottom: 7.9rem;
     }
 
-    .end-analysis{padding-bottom: 5rem;}
+
+    @media screen and (min-width: 2561px) and (max-width: 3072px){
+        html{background-color: aqua;}
+
+        /*/////// 서비스 문제점을 분석할게요. */
+        .flow-analysisInner{padding: 0 42rem;}
+        .what-user-calendarPurpos{padding: 0 5rem;}
+        .what-calendar-serviceNow > .lendar-service-group{gap: 1rem;}
+        .what-calendar-serviceNow{padding: 0 1rem;}
+
+        /*/////// 장기 스케줄 색갈 책갈피 */
+        .visual-sec05-counting-date > .bot-visual-img02{width: 50% !important;}
+
+        .visual-sec04-calendar-bookmark > .bookMark-inner{
+            padding: 0 28rem;
+            display: flex; 
+            gap: 12rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .visual-sec04-calendar-bookmark > .bookMark-inner > .title{width: 50%;}
+    }
+    @media screen and (min-width: 1921px) and (max-width: 2561px){
+        html{background-color: red;}
+
+        /*/////// 서비스 문제점을 분석할게요. */
+        .flow-analysisInner{padding: 0 24rem;} 
+        .what-user-calendarPurpos{padding: 0 10rem;}
+        .what-calendar-serviceNow > .lendar-service-group{gap: 1rem;}
+        .what-calendar-serviceNow{padding: 0 4rem;}
+
+        /*/////// 장기 스케줄 색갈 책갈피 */
+        .visual-sec05-counting-date > .bot-visual-img02{width: 50% !important;}
+
+        .visual-sec04-calendar-bookmark > .bookMark-inner{
+            padding: 0 14rem;
+            display: flex; 
+            gap: 12rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .visual-sec04-calendar-bookmark > .bookMark-inner > .title{width: 50%;}
+
+    }
+    @media screen and (max-width: 1921px){
+        html{background-color: green;}
+
+        .modal-content {
+            width: 26% !important;
+            height: 28% !important;
+        }
+        
+        .what-user-calendarPurpos{padding: 0 10rem;}
+        .what-calendar-serviceNow > .lendar-service-group{gap: 1rem;}
+        .what-calendar-serviceNow{padding: 0 1rem;}
+
+        .visual-sec05-counting-date > .bot-visual-img02{
+            width: 60% !important; 
+        }
+
+    }
+
+
+    /*/////// 서비스 문제점을 분석할게요. */
     .what-user-calendarPurpos > .search-pos-group{margin-top: 2rem;}
     .what-user-calendarPurpos > .search-pos-group{margin-left: 3.2rem;}
-    .title-search-user > p{padding: 1.5rem 3.2rem;}
+    .title-search-user > p{padding: 1.5rem 2rem;}
     .title-search-user > img{padding-right: 3.2rem;}
-
-    .what-calendar-serviceNow > .lendar-service-group{display: flex; align-items: center;}
+    
+    /*/////// 현재 구글 캘린더의 서비스에는 어떤 기능이 제공되어지나요? (이미지 4개) */
+    .what-calendar-serviceNow > .lendar-service-group{display: flex; align-items: center; display: flex; gap: 1rem;}
     .what-calendar-serviceNow > .lendar-service-group > li{
         width: 100%; 
         height: 18rem; 
     }
     .name-service > p{margin-top: 1rem;}
-
+    
+    /*/////// 스케쥴 전체 확인 목록표 img */
     .calendar-checkLayout,
     .calendar-serch-chcek{padding: 4rem 0;}
+    
+    .end-analysis{padding-bottom: 5rem;}
 
+        /*/////// 직관적인 서비스 메뉴 구성 */
+        .motion-service-vlsual{
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .about-new-service{
+            width: fit-content; 
+            display: flex; 
+            flex-direction: column;
+            margin-top: 2rem;
+        }
+        
+        .about-new-service > h3,
+        .about-new-service > p {
+            display: inline-block;
+        }
+        .about-new-service > p{margin-top: 0 !important;}
+
+    /* section 5 ////////*/
     #section5 > .inner > .items-data{width: 60%; margin: 3rem auto 0 auto;}
     .in-updata-group{margin: 1rem 0; border-left: 3px dashed #E4E4E4;}
     .in-updata-group > li > span{margin-left: 3rem; position: relative;}
@@ -642,8 +762,6 @@
 
 
     .visual-sec02-popup > .title > img{width: 60%; margin-top: 3rem;}
-    .motion-service-vlsual{width: 60%;}
-    .motion-service-vlsual > .about-new-service{margin-left: 3.2rem;}
     .visual-sec04-calendar-bookmark > .bookMark-inner{display: flex; gap: 12rem; align-items: center; justify-content: space-between;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > .title{padding-bottom: 10rem;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{white-space: pre-wrap; text-align: left; line-height: 28px;}
@@ -654,7 +772,6 @@
 
     .visual-sec05-counting-date{width: 100%; position: relative;}
     .visual-sec05-counting-date > .bot-visual-img02{
-        width: 50%; 
         margin: 36px auto; 
         border-radius: 24px; 
     }
@@ -686,9 +803,28 @@ s    .pro-sec00{margin: 22.222rem auto;}
         top: 14px;
         left: 308px;
     }
-    .sec00Project-planProcess > .plans-issue {margin: 320px auto;}
-    .sec00Project-planProcess > .plans-issue > .title > p{right: 40px;}
-    .sec00Project-planProcess > .plans-issue > .mygallerya{margin: 460px auto;}
+    .sec00Project-planProcess > .plans-issue {margin: 18rem auto;}
+    .sec00Project-planProcess > .plans-issue > .title > p{display: block;}
+    .issue-group{margin-top: 2rem;}
+
+    .issue-group > .imgIS{
+        position: relative;
+        left: 2rem;
+        display: inline; 
+        width: 100%;
+    }
+    
+    .issue-group > .isImg01{
+        height: 1416px;
+        background: url("../img/plan01.png") no-repeat center; 
+        margin-bottom: 4rem;
+    }
+    .issue-group > .isImg02{
+        height: 2400px;
+        background: url("../img/mygallerya.png") no-repeat center; 
+    }
+
+
     .proto-sec01-video > video{width: 100vw; height: 100%;}
     .pro-sec03{margin-bottom: 22.222rem;}
     .pro-sec04{margin-bottom: 22.222rem;}
@@ -810,133 +946,13 @@ s    .pro-sec00{margin: 22.222rem auto;}
 
 }
 
-@media screen and (min-width: 3071px){
-    /* body{background-color: blue;} */
-    
-    /* google //////*/
-    .problems, .show-problems{padding: 5rem 24rem;}
-    .calendar-layout, .service-analysis{padding: 0 18rem;}
-    .flow-analysisInner{padding: 0 40rem 8.4rem 40rem;}
-    .what-user-calendarPurpos,
-    .what-calendar-serviceNow,
-    .what-google-noService{padding: 0;}
-    .what-user-calendarPurpos{padding: 0 8rem;}
-    .check-update{padding: 0 18rem;}
-    .visual-sec03-service-menubar{padding: 0 18.75rem;}
-    .visual-sec04-calendar-bookmark {padding: 5rem 18rem;}
-
-    .items-data{width: 30%; margin: auto;}
-
-    .visual-sec04-calendar-bookmark > .bookMark-inner{width: 60%;}
 
 
 
-    /* ah-jeom //////*/
-    video.background-image{
-        width: 100vw; 
-        height: auto;
-        position: absolute;
-        top:  -4%;
-    }
-
-    .jeomSect{padding: 9rem 0;}
-    .pro-sec01 > .inner > .title{padding: 0 16.667rem;}
 
 
-    .pro-sec02{padding: 0 30rem; width: 100%; height: auto; overflow: hidden;} 
-    .pro-sec00, .pro-sec02 > .inner {width: 80%; margin: 0 auto; justify-content: space-between !important;}
-    .pro-sec00, .pro-sec02 > .inner > .title{padding-left: 0rem;}
-    .moblie-sec02-imgGroup{position: relative; left: 10rem;}
 
-    .pro-sec03 > .inner > .title{padding: 0 41rem;}
-    .sec01-gallrey-group > .lineBoxs > .line-box{width: 100%; padding: 0 42rem;}
-
-    .ci1{top: -3px; right: 25rem;}
-    .ci2{top: -3px; left: 25rem;}
-    .ci3{top: -7.1rem; right: 25rem;}
-    .ci4{top: -7.16rem; right: 25rem;}
-
-    .line-box > .lineBoxs-inner > span.sizeName2{top: -2rem; right: 25rem;}
-    .line-box > .lineBoxs-inner > span.sizeName3{top: -44px; left: 25rem;}
-    .line-box > .lineBoxs-inner > span.sizeName4{top: -6.4rem; right: 25rem;}
-    .line-box > .lineBoxs-inner > span.sizeName5{top: -6.4rem; right: 25rem;}
-
-
-    .pro-sec04{padding: 80px 16rem;}
-    .pro-sec04 > .inner{width: 32%;}
-    .fontStyle-imgGroup > img{right: 0px;}
-    
-    .wb-03{padding: 0 0;}
-    .custom-cont{width: 50%;}
-    .custom-cont > .protoImages-showGroup{width: 58% !important;}
-    .custom-cont > .white-title{margin-top: 160px; width: 34% !important; padding-right: 2rem;}
-
-
-}
-
-
-@media screen and (min-width: 2559px) and (max-width: 3070px){
-     /* body {
-        background-color: red !important;
-    }  */
- 
-    /* google //////*/
-    .problems, .show-problems{padding: 2.5rem 18rem;}
-    .flow-analysisInner{padding: 0 10rem 8.4rem 10rem;}
-    .what-user-calendarPurpos,
-    .what-calendar-serviceNow,
-    .what-google-noService{padding: 0 18rem;}
-    .items-data{width: 50%; margin: auto;}
-    .motion-service-vlsual{width: 80%;}                                                                                                                                                                                                  
-    .motion-service-vlsual > .about-new-service{padding-left: 56px; border: 1px solid red; width: 70%; margin: 0 auto;}
-
-
-    .items-data{width: 30%; margin: auto;}
-
-    .visual-sec04-calendar-bookmark > .bookMark-inner{width: 60%;}
-    
-    /* ah-jeom //////*/
-    video.background-image{
-        width: 100vw; 
-        height: auto;
-        position: absolute;
-        top:  -4%;
-    }
-
-    .jeomSect{padding: 9rem 0;}
-    .pro-sec01 > .inner > .title{padding: 0 16.667rem;}
-
-
-    .pro-sec02{padding: 0 28rem; width: 100%; height: auto; overflow: hidden;} 
-    .pro-sec00, .pro-sec02 > .inner {width: 100%;}
-    .pro-sec00, .pro-sec02 > .inner > .title{padding-left: 2rem;}
-    .moblie-sec02-imgGroup{position: relative; left: 10rem;}
-
-    .pro-sec03 > .inner > .title{padding: 0 30rem;}
-    .sec01-gallrey-group > .lineBoxs > .line-box{width: 100%; padding: 0 42rem;}
-
-    .ci1{top: -3px; right: 10rem;}
-    .ci2{top: -3px; left: 10rem;}
-    .ci3{top: -7.1rem; right: 10rem;}
-    .ci4{top: -7.16rem; right: 10rem;}
-
-    .line-box > .lineBoxs-inner > span.sizeName2{top: -2rem; right: 10rem;}
-    .line-box > .lineBoxs-inner > span.sizeName3{top: -44px; left: 10rem;}
-    .line-box > .lineBoxs-inner > span.sizeName4{top: -6.4rem; right: 10rem;}
-    .line-box > .lineBoxs-inner > span.sizeName5{top: -6.4rem; right: 10rem;}
-
-
-    .pro-sec04{padding: 80px 16rem;}
-    .pro-sec04 > .inner{width: 38.5%;}
-    .fontStyle-imgGroup > img{right: 0px;}
-    
-    .wb-03{padding: 0 0;}
-    .custom-cont{width: 80%;}
-
- 
- }
-
-
+/*//// (min-width: 1080px) and (max-width: 1920px) ///////////////////*/
 @media screen and (min-width: 1080px) and (max-width: 1920px){
    /* body {
         background-color: green !important;
@@ -971,7 +987,6 @@ s    .pro-sec00{margin: 22.222rem auto;}
     .items-data{width: 40%; margin: auto;}
 
     .motion-service-vlsual > .menuBar-imgGroup > .direct-menuBar {width: 100%; margin: auto;}
-    .motion-service-vlsual > .menuBar-imgGroup > .direct-menuBar > video{width: 96%;}
 
     .visual-sec04-calendar-bookmark > .bookMark-inner{width: 100%;}
 
