@@ -290,12 +290,12 @@
 
     .issue-group > .isImg01{
         height: 1543px;
-        background: url("../img/m_plan.png") no-repeat center; 
+        background: url("../img/m_plan.png") no-repeat center !important; 
         margin-bottom: 4rem;
     }
     .issue-group > .isImg02{
         height: 1407px;
-        background: url("../img/M_my_gallerya.png") no-repeat center; 
+        background: url("../img/M_my_gallerya.png") no-repeat center !important; 
     }
 
 
