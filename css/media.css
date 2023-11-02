@@ -289,13 +289,13 @@
     .issue-group{margin-top: 2rem;}
 
     .issue-group > .isImg01{
-        height: 900px;
-        background: url("../img/plan01.png") no-repeat center; 
+        height: 1543px;
+        background: url("../img/m_plan.png") no-repeat center; 
         margin-bottom: 4rem;
     }
     .issue-group > .isImg02{
-        height: 2400px;
-        background: url("../img/mygallerya.png") no-repeat center; 
+        height: 1407px;
+        background: url("../img/M_my_gallerya.png") no-repeat center; 
     }
 
 
@@ -363,7 +363,7 @@
     .moblie-sec02-imgGroup > img{
         position: relative;
         left: 2rem;
-        width: 406px;
+        width: 390px;
         height: auto;
     }
     .pro-sec03 > .inner > .title{padding: 0 16px; width: 360px;}
