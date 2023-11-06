@@ -288,7 +288,8 @@
     .sec00Project-planProcess > .plans-issue {margin: 18rem auto;}
     .issue-group{margin-top: 2rem; width: 100%; overflow: hidden;}
 
-    .issue-group > .imgIS{position: relative; left: -1rem;}
+    .issue-group > .isImg01,
+    .issue-group > .isImg02{position: relative; left: -1rem;}
     .issue-group > .isImg01{
         height: 1543px;
         background: url("../img/m_plan.png") no-repeat center; 
@@ -299,6 +300,9 @@
         background: url("../img/M_my_gallerya.png") no-repeat center; 
     
     }
+    .issue-group > .isImg03{width: 100%; height: auto;}
+    .issue-group > .isImg03 > video {width: 140vw; height: auto; margin: 2rem auto 0 auto;}
+
 
 
     .jeomSect{border-radius: 24px;}
@@ -713,7 +717,7 @@
 
         /* 아제옴 ////////////////////////////////////////////////*/
         .pro-sec02, .pro-sec03 > .inner > .title {padding: 0 40rem;}
-        .pro-sec04{padding: 0 70rem;}
+        .pro-sec04{padding: 0 62rem;}
 
         /* 넓은 영역과 액자형인 심플한 정사각형으로 작품의 집중을 더욱 더 높게 */
         /* 01 */
@@ -921,9 +925,12 @@
         margin-bottom: 12rem;
     }
     .issue-group > .isImg02{
+        margin: 0 auto;
+        width: 80% !important;
         height: 2400px;
         background: url("../img/mygallerya.png") no-repeat center; 
     }
+    .issue-group > .isImg03{margin-top: 2rem;}
 
 
     .proto-sec01-video > video{width: 100vw; height: 100%;}
