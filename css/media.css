@@ -863,7 +863,7 @@
     .visual-sec02-popup > .title > img{width: 60%; margin-top: 3rem;}
     .visual-sec04-calendar-bookmark > .bookMark-inner{display: flex; gap: 12rem; align-items: center; justify-content: space-between;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > .title{padding-bottom: 10rem;}
-    .visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{white-space: pre-wrap; text-align: left; line-height: 28px;}
+    .visual-sec04-calendar-bookmark > .bookMark-inner > .title > p{width: 660px; white-space: pre-wrap; text-align: left; line-height: 28px;}
     .visual-sec04-calendar-bookmark > .bookMark-inner > img{width: 28.125rem; height: 32.5rem;}
 
     .counting-typeText:nth-child(odd){padding: .5% 1.5%;}
