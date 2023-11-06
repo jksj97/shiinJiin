@@ -216,9 +216,9 @@ section{position: relative; clear: both;}
     .wb-03 > .inner > .custom-cont > .white-title > .group-keywords{
         /* border: 1px solid red; */
         columns: 2;
-        margin-top: 7rem;
+        margin-top: 7.5rem;
         width: 328px;  
-        height: 140px;
+        height: auto;
     }
     .wb-03 > .inner > .custom-cont > .white-title > .group-keywords > span{
         display: inline-flex;
