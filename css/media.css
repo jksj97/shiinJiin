@@ -473,6 +473,7 @@
 
     .custom-cont > .white-title{float: left;}
     .wb-03 > .inner > .custom-cont > .white-title > p {
+        width: 140px;
         position: relative;
         top: -11.5rem;
         left: 4px;
