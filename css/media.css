@@ -601,6 +601,16 @@
 
 
 /*//// (min-width: 2559px) and (max-width: 3072px) ///////////////////*/
+@media screen and (min-width: 2561px) and (max-width: 3073px){
+    .imgAred{top: 40% !important;}
+    .imgAred > p:nth-child(1){
+        font-size: 16rem !important;
+    }
+    .imgAred > p:nth-child(2){
+        font-size: 1.7rem !important;
+        padding-top: 2rem;
+    }
+}
 @media screen and (min-width: 1920px) and (max-width: 3073px){
 
     .body{min-width: 1000px;}
