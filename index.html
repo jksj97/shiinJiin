@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="path-to-the-file/splide.min.css">
+    <link rel="stylesheet" href="url-to-cdn/splide.min.css">
 </head>
 
 <body style="background-color:#151515;">
@@ -26,7 +28,7 @@
         </div>
     </header>
     
-    <header id="main-menu" class="menu darkmode">
+    <header id="main-menu" class="menu">
         <div class="head-inner">
             <a href="#"  onclick="location.href='index.html'">home</a>
             <ul id="mainMenu">
@@ -43,14 +45,44 @@
 
     <div class="body">
         <div id="main-banner" class="first-sec">
-            <video id="myVideo" class="background-image" muted autoplay loop>
-                <!-- <source src="./video/test-vidio.mp4" type="video/mp4"> -->
-            </video>
-        <div id="background-overlay"></div>
+            <img src="./img/main.jpg" alt="">
+            <!-- <video id="myVideo" class="background-image" muted autoplay loop>
+                <source src="./video/test-vidio.mp4" type="video/mp4">
+            </video> -->
+            <div id="background-overlay"></div>
         </div>
 
 
         <section style="background-color:#151515;" class="project-bg-area homeSect">
+            <div               
+             data-aos="fade-up"
+             data-aos-anchor-placement="top-bottom"  
+             class="slider_area1">
+                <ul class="slider_cont">
+                    <li class="slider_item"><div class="overLay"><p>online store</p></div></li>
+                    <li class="slider_item"><div class="overLay"><p>online store</p></div></li>
+                </ul>
+            </div>
+
+            <!-- <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">Slide 01</li>
+                    <li class="splide__slide">Slide 01</li>
+                    <li class="splide__slide">Slide 01</li>
+                    <li class="splide__slide">Slide 01</li>
+                    <li class="splide__slide">Slide 01</li>
+
+                  </ul>
+                </div>
+                
+                Add the progress bar element
+                <div class="my-slider-progress">
+                  <div class="my-slider-progress-bar"></div>
+                </div>
+            </div> -->
+
+
             <div
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"  
@@ -76,6 +108,8 @@
                             </ol>
                         </li>
                         <li class="leItem-home doIt-item"><p>프로토타입 제작 및 비주얼 인터렉션 (에프터이펙트)</p></li>
+                        <li class="leItem-home doIt-item"><p>퍼블리싱(HTML, CSS)</p></li>
+                        <li class="leItem-home doIt-item"><p>워드프레스</p></li>
                     </ol>
                     <ol class="right-gruop toll">
                         <li class="riItem-home toll-item"><p style="font-size:20px">Toll (주로 쓰는 프로그램)</p></li>
@@ -142,7 +176,7 @@
                     </ol>
                 </div> -->
             </div>
-            <div
+            <!-- <div
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"  
                 class="about sec-my-info">
@@ -164,9 +198,18 @@
                         <p>
                             2020년 8월 ~ 12월 (주)코아리버에서 5개월 근무(IPP 기업연계형장기현장 실습제도)
                             <br>2022년 07월 25일 ~ 08월 23일 약 1개월간 근무.
-                        </br>
+                            </br>
+                        </p>
                     </div>
-                    <div class="myInfo-indexs tell-aboutMe">
+                    <div class="myInfo-indexs">
+                        <span>외주</span>
+                        <p>Design 총 5회</p>
+                        <p style="font-size: 14px; margin-top: 12px;">COJAM home 리뉴얼 디자인<br>
+                           COJAM 갤러리 디자인<br>
+
+                        </p>
+                    </div>
+                     <div class="myInfo-indexs tell-aboutMe">
                         <span>지금까지 소감</span>
                         <p>
                             많은 글을 지금까지 썼고 지웠지만 당연하고 많은 사람들이 했던 말 같습니다. <br>
@@ -185,7 +228,7 @@
 
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
     </div>
@@ -200,6 +243,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
+
 </body>
 </html>

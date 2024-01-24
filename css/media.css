@@ -80,6 +80,10 @@
     footer{padding: 5rem;}
     footer > .footer-inner > p{position: relative; top: -2.6rem;}
 
+
+    .slider_cont{padding: 0 !important; flex-direction: column}
+    .slider_item{width: 100% !important;}
+
     /* Google */
     .modal-content {
         top: -5%;
