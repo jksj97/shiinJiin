@@ -750,13 +750,14 @@
     }
     @media screen and (min-width: 1921px) and (max-width: 2561px){
         /* html{background-color: red;} */
-
+        .modal-content{width: 24%; height: 26%;}
         /* 구글 ////////////////////////////////////////////////*/
         /*/////// 서비스 문제점을 분석할게요. */
-        .flow-analysisInner{padding: 0 24rem;} 
-        .what-user-calendarPurpos{padding: 0 10rem;}
+        .flow-analysisInner{padding: 0 20rem;} 
+        /* .what-user-calendarPurpos{padding: 0 10rem;} */
         .what-calendar-serviceNow > .lendar-service-group{gap: 1rem;}
-        .what-calendar-serviceNow{padding: 0 4rem;}
+        .what-calendar-serviceNow > .lendar-service-group > li{margin-left: 0 !important;}
+        /* .what-calendar-serviceNow{padding: 0 4rem;} */
 
         /*/////// 장기 스케줄 색갈 책갈피 */
         .visual-sec05-counting-date > .bot-visual-img02{width: 50% !important;}
@@ -775,23 +776,30 @@
 
         /* 아제옴 ////////////////////////////////////////////////*/
         .pro-sec02, .pro-sec03 > .inner > .title {padding: 0 25rem;}
-        .pro-sec04{padding: 0 50rem;}
+        .pro-sec04{padding: 0 40rem;}
 
         /* 넓은 영역과 액자형인 심플한 정사각형으로 작품의 집중을 더욱 더 높게 */
         /* 01 */
-        .lineBoxs > .line-box:nth-child(2){padding: 0 50rem !important;}
+        /* .lineBoxs > .line-box:nth-child(2){padding: 0 50rem !important; border: 2px solid red;} */
+        .lineBoxs > .line-box:nth-child(3) > .lineBoxs-inner > .sizeName3, .lineBoxs > .line-box:nth-child(3) > .lineBoxs-inner > .ci2{left: -50% !important;}
 
         /* 02 */
         .lineBoxs > .line-box:nth-child(3){padding: 0 53rem !important;}
+        .lineBoxs > .line-box:nth-child(2) > .lineBoxs-inner > .sizeName2, 
+        .lineBoxs > .line-box:nth-child(2) > .lineBoxs-inner > .ci1{right: -45%;}
 
         /* 03 */
         .lineBoxs > .line-box:nth-child(4){padding: 0 50rem !important;}
+        .lineBoxs > .line-box:nth-child(4) > .lineBoxs-inner > .sizeName4, 
+        .lineBoxs > .line-box:nth-child(4) > .lineBoxs-inner > .ci3{right: -36% !important;}
 
         /* 04 */
         .lineBoxs > .line-box:nth-child(5){padding: 0 50rem !important;}
+        .lineBoxs > .line-box:nth-child(5) > .lineBoxs-inner > .sizeName5, 
+        .lineBoxs > .line-box:nth-child(5) > .lineBoxs-inner > .ci4{right: -36% !important;}
 
     }
-    @media screen and (max-width: 1921px){
+    @media screen and (max-width: 1920px){
         /* html{background-color: green;} */
 
         /* 구글 ////////////////////////////////////////////////*/
@@ -876,7 +884,7 @@
     .in-updata-group > li > span{margin-left: 3rem; position: relative;}
 
     .main-visual{margin: 15rem 0;}
-    .visual-sec04-calendar-bookmark {padding: 5rem 18rem;  display: flex; align-items: center; justify-content: space-between ; }
+    .visual-sec04-calendar-bookmark {padding: 5rem 0rem;  display: flex; align-items: center; justify-content: space-between ; }
 
 
     .visual-sec02-popup > .title > img{width: 60%; margin-top: 3rem;}
