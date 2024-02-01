@@ -753,10 +753,12 @@
         .modal-content{width: 24%; height: 26%;}
         /* 구글 ////////////////////////////////////////////////*/
         /*/////// 서비스 문제점을 분석할게요. */
-        .flow-analysisInner{padding: 0 20rem;} 
+        .title-search-user{width: 80%; margin: 0 auto; padding: 0 2rem;}
+        .what-user-calendarPurpos > .search-pos-group{width: 50%; margin: 1.5rem auto !important; position: relative; left: -3rem;}
+        .flow-analysisInner{padding: 0 18rem;} 
         /* .what-user-calendarPurpos{padding: 0 10rem;} */
         .what-calendar-serviceNow > .lendar-service-group{gap: 1rem;}
-        .what-calendar-serviceNow > .lendar-service-group > li{margin-left: 0 !important;}
+        .what-calendar-serviceNow > .lendar-service-group > li{margin-left: 1rem !important;}
         /* .what-calendar-serviceNow{padding: 0 4rem;} */
 
         /*/////// 장기 스케줄 색갈 책갈피 */
@@ -775,8 +777,10 @@
 
 
         /* 아제옴 ////////////////////////////////////////////////*/
-        .pro-sec02, .pro-sec03 > .inner > .title {padding: 0 25rem;}
+        .pro-sec02, .pro-sec03 > .inner > .title {padding: 0 15rem;}
         .pro-sec04{padding: 0 40rem;}
+
+        .moblie-sec02-imgGroup{position: relative; left: 5rem;}
 
         /* 넓은 영역과 액자형인 심플한 정사각형으로 작품의 집중을 더욱 더 높게 */
         /* 01 */
